@@ -1,0 +1,60 @@
+{% extends 'test.html' %}
+
+{% block title %}Avialable routes{% endblock %}
+
+{% block content %}
+    <style>
+        /* Add your styles here */
+
+        .table-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed for lower visibility */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust box-shadow for visibility */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+
+    <div class="table-container">
+        <h2 style="text-align: center;">Available routes</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature 1</th>
+                    <th>Feature 2</th>
+                    <th>Feature 3</th>
+                    <th>Feature 4</th>
+                    <th>Feature 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for index, row in similar_items.iterrows %}
+                    <tr>
+                        <td>{{ row.feature1 }}</td>
+                        <td>{{ row.feature2 }}</td>
+                        <td>{{ row.feature3 }}</td>
+                        <td>{{ row.feature4 }}</td>
+                        <td>{{ row.feature5 }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'test.html' %}
+
+{% block title %}About Us{% endblock %}
+
+{% block content %}
+<style>
+    div.about-us {
+        text-align: center;
+        margin: 50px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+        background-image: url('https://example.com/path-to-your-image.jpg'); /* Replace with the actual image URL */
+        background-size: cover;
+        background-position: center;
+        color: #333;  /* Text color */
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #555;
+        max-width: 600px;
+        margin: 0 auto 20px;
+    }
+</style>
+
+<div class="about-us">
+    <h2>About Us</h2>
+    <p>Welcome to Cycle App, your go-to provider for cycling trips inside Germany!</p>
+    <p>We are passionate about promoting a healthy lifestyle and eco-friendly travel. Our team of experienced cyclists is dedicated to providing exceptional services for memorable trips across beautiful landscapes.</p>
+    <p>Explore Germany on two wheels with us and discover the joy of cycling!</p>
+</div>
+{% endblock %}
