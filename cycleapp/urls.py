@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from cycle1.views import(
     home_screen_view,
-    knn_view,about_us,services,submit_form,fill_form
+    knn_view,about_us,services,submit_form,fill_form,show_in_map
 )
 
 urlpatterns = [
@@ -28,5 +28,6 @@ urlpatterns = [
     path('about_us/', about_us, name='about_us'),
     path('services/', services, name='services'),
     path('fill_form/', fill_form, name='fill_form'),
+    path('show_in_map/<str:latitude>/<str:longitude>/', show_in_map, name='show_in_map'),
     path('submit_form/', submit_form, name='submit_form'),
 ]

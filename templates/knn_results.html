@@ -1,6 +1,6 @@
 {% extends 'test.html' %}
 
-{% block title %}Avialable routes{% endblock %}
+{% block title %}Available routes{% endblock %}
 
 {% block content %}
     <style>
@@ -29,6 +29,16 @@
         th {
             background-color: #f2f2f2;
         }
+
+        .show-in-map {
+            text-align: center;
+        }
+
+        .show-in-map a {
+            color: #007BFF;
+            text-decoration: underline;
+            cursor: pointer;
+        }
     </style>
 
     <div class="table-container">
@@ -42,6 +52,7 @@
                     <th>Feature 3</th>
                     <th>Feature 4</th>
                     <th>Feature 5</th>
+                    <th>Show in Map</th> <!-- New column header -->
                 </tr>
             </thead>
             <tbody>
@@ -52,6 +63,7 @@
                         <td>{{ row.feature3 }}</td>
                         <td>{{ row.feature4 }}</td>
                         <td>{{ row.feature5 }}</td>
+                        <td class="show-in-map"><a href="{% url 'show_in_map' latitude=11 longitude=11 %}">Show</a></td>
                     </tr>
                 {% endfor %}
             </tbody>

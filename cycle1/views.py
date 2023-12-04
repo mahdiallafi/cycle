@@ -20,6 +20,13 @@ def services(request):
 def fill_form(request):
     return render(request, 'fill_form.html')
 
+def show_in_map(request, latitude, longitude):
+    latitude = float(latitude)
+    longitude = float(longitude)
+    # Your view logic here
+    return render(request, 'show_in_map.html', {'latitude': latitude, 'longitude': longitude})
+
+
 
 def submit_form(request):
     if request.method == 'POST':

@@ -6,6 +6,9 @@ from sklearn.neighbors import NearestNeighbors
 def run_knn(age, gender, interests, poi, maxTime, minTime, num_neighbors=5):
     # Sample data (replace with your own data)
 
+    te= pd.read_csv('/home/mahdi/cycleing/python/cycleapp/cycle1/historicalData (1).tsv', delimiter='\t', low_memory=False)
+    print(te.head(3))
+
     print(f"Age: {age}")
     print(f"Gender: {gender}")
     print(f"Interests: {interests}")
