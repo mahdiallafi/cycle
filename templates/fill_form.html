@@ -46,49 +46,120 @@
             cursor: pointer;
             display: inline-block;
         }
+
+        .form-group {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .slider-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .slider-label {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .slider-input {
+        flex: 2;
+        width: 80%;
+        -webkit-appearance: none;
+        height: 10px;
+        border-radius: 5px;
+        background: white;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+
+    .slider-input:hover {
+        opacity: 1;
+    }
+
+    .slider-input::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #4CAF50;
+        cursor: pointer;
+    }
+
+    .slider-input::-moz-range-thumb {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #4CAF50;
+        cursor: pointer;
+    }
+
+    .counter {
+        font-weight: bold;
+        font-size: 18px;
+    }
     </style>
 
-    <div class="form-container" style="margin-top: 50px;">
+    <div class="form-container" style="margin-top: 60px;margin-bottom: 60px;">
         <form id="cycleForm" method="post" action="{% url 'submit_form' %}">
             {% csrf_token %}
 
             <div class="form-group">
                 <label for="age">Age:</label>
-                <input style="width:100px" type="number" id="age" name="age" min="1" max="100" placeholder="Enter age">
+               <select id="age" name="age">
+                    <option value="6">6-15</option>
+                    <option value="16">16-25</option>
+                    <option value="26">26-35</option>
+                    <option value="36">36-45</option>
+                    <option value="46">46-55</option>
+                    <option value="56">56-65</option>
+                    <option value="66">66-75</option>
+                    <option value="75">75+</option>
+                </select>
+            
             </div>
-
+         
             <div class="form-group">
                 <label>Gender:</label><br>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label><br>
-                <input type="radio" id="child" name="gender" value="child">
-                <label for="child">Child</label>
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label>
             </div>
-
-            <div class="form-group">
-                <label>General Interest:</label><br>
-                <input type="checkbox" id="history" name="interests" value="history">
-                <label for="history">History</label><br>
-                <input type="checkbox" id="art" name="interests" value="art">
-                <label for="art">Art</label><br>
-                <input type="checkbox" id="nature" name="interests" value="nature">
-                <label for="nature">Nature</label><br>
+            <div class="form-group slider-container">
+                <label class="slider-label" for="history-slider">History:</label>
+                <input class="slider-input" type="range" id="history-slider" name="history" min="0" max="100" step="1" oninput="updateCounter(this)">
+                <span class="counter" id="history-counter">50</span>
             </div>
-
-            <div class="form-group">
-                <label>Points of Interest (POI):</label><br>
-                <input type="checkbox" id="res" name="poi" value="res">
-                <label for="res">Restaurant</label><br>
-                <input type="checkbox" id="park" name="poi" value="park">
-                <label for="park">Park</label><br>
-                <input type="checkbox" id="mall" name="poi" value="mall">
-                <label for="mall">Mall</label><br>
-                <input type="checkbox" id="hotel" name="poi" value="hotel">
-                <label for="hotel">Hotel</label><br>
-                <input type="checkbox" id="stadium" name="poi" value="stadium">
-                <label for="stadium">Stadium</label><br>
+            
+            <div class="form-group slider-container">
+                <label class="slider-label" for="art-slider">Art:</label>
+                <input class="slider-input" type="range" id="art-slider" name="art" min="0" max="100" step="1" oninput="updateCounter(this)">
+                <span class="counter" id="art-counter">50</span>
+            </div>
+            
+            <div class="form-group slider-container">
+                <label class="slider-label" for="nature-slider">Nature:</label>
+                <input class="slider-input" type="range" id="nature-slider" name="nature" min="0" max="100" step="1" oninput="updateCounter(this)">
+                <span class="counter" id="nature-counter">50</span>
+            </div>
+            
+            <div class="form-group slider-container">
+                <label class="slider-label" for="sights-slider">Sights:</label>
+                <input class="slider-input" type="range" id="sights-slider" name="sights" min="0" max="100" step="1" oninput="updateCounter(this)">
+                <span class="counter" id="sights-counter">50</span>
+            </div>
+            
+            <div class="form-group slider-container">
+                <label class="slider-label" for="funActivities-slider">Fun Activities:</label>
+                <input class="slider-input" type="range" id="funActivities-slider" name="funActivities" min="0" max="100" step="1" oninput="updateCounter(this)">
+                <span class="counter" id="funActivities-counter">50</span>
             </div>
 
             <div class="form-group">
@@ -110,5 +181,12 @@
         function cycleForm() {
             document.getElementById("cycleForm").reset();
         }
+        function updateCounter(slider) {
+    var sliderName = slider.name;
+    var counter = document.getElementById(sliderName + '-counter');
+    counter.textContent = slider.value;
+}
     </script>
+    
+
 {% endblock %}

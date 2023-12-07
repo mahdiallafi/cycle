@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import NearestNeighbors
 
-def run_knn(age, gender, interests, poi, maxTime, minTime, num_neighbors=5):
+def run_knn(age, gender, max_time, min_time,history,art, nature,sights,funActivities, num_neighbors=5):
     # Sample data (replace with your own data)
 
     te= pd.read_csv('/home/mahdi/cycleing/python/cycleapp/cycle1/historicalData (1).tsv', delimiter='\t', low_memory=False)
@@ -11,10 +11,13 @@ def run_knn(age, gender, interests, poi, maxTime, minTime, num_neighbors=5):
 
     print(f"Age: {age}")
     print(f"Gender: {gender}")
-    print(f"Interests: {interests}")
-    print(f"POI: {poi}")
-    print(f"Max Time: {maxTime}")
-    print(f"Min Time: {minTime}")
+    print(f"history: {history}")
+    print(f"art: {art}")
+    print(f"nature: {nature}")
+    print(f"sights: {sights}")
+    print(f"funActivities: {funActivities}")
+    print(f"Max Time: {max_time}")
+    print(f"Min Time: {min_time}")
     data = {
         'feature1': [18, 13, 14, 18, 19, 10],
         'feature2': [17, 14, 15, 18, 21, 31],
@@ -33,11 +36,11 @@ def run_knn(age, gender, interests, poi, maxTime, minTime, num_neighbors=5):
 
     # Make a prediction using form data
     new_data = pd.DataFrame({
-        'feature1': [age],
-        'feature2': [maxTime],  # Adjust parameter name
+        'feature1': [123],
+        'feature2': [123],  # Adjust parameter name
         'feature3': [1 if gender == 'male' else 0],
-        'feature4': [1 if 'history' in interests else 0],
-        'feature5': [1 if 'res' in poi else 0],
+        'feature4': [123],
+        'feature5': [123],
     })
 
     # Finding k nearest neighbors
