@@ -31,7 +31,8 @@ requestURL = "https://maps.googleapis.com/maps/api/distancematrix/json?mode=bicy
 
 # Make request but check before it we have already done it before
 if not os.path.exists("pythonData/" + placesPart):
-    #requestReturn = requests.get(requestURL)
+    requestReturn = requests.get(requestURL)
+    requestReturn = requestReturn.json()
     print("Made request")
     with open("pythonData/" + placesPart, 'wb') as file: 
         pickle.dump(requestReturn, file) 
@@ -41,12 +42,11 @@ else:
         requestReturn = pickle.load(file)
 
 # Create routes.csv from response
-jsonData = requestReturn.json()
 with open('routes.csv', 'w', newline='') as csvfile:
     csvWriter = csv.writer(csvfile)
     csvWriter.writerow(["Origin", "Dest", "Distance in seconds", "Time in seconds"])    
-    for i, origin in enumerate(jsonData["origin_addresses"]):
-        for j, dest in enumerate(jsonData['destination_addresses']):
+    for i, origin in enumerate(requestReturn["origin_addresses"]):
+        for j, dest in enumerate(requestReturn['destination_addresses']):
             if origin == dest:
                 continue
-            csvWriter.writerow([addressToName[origin], addressToName[dest], jsonData["rows"][i]["elements"][j]["distance"]["value"], jsonData["rows"][i]["elements"][j]["duration"]["value"]])
+            csvWriter.writerow([addressToName[origin], addressToName[dest], requestReturn["rows"][i]["elements"][j]["distance"]["value"], requestReturn["rows"][i]["elements"][j]["duration"]["value"]])

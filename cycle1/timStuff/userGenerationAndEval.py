@@ -19,19 +19,20 @@ History, Art, Nature, Sports, Sciences, Sights, Fun Activities: Continuous betwe
 
 columns = ["age", "gender", "history", "art", "nature", "sports", "sciences", "sights", "fun_activities"]
 
-# Create randomized users
 """
+# Create randomized users
+
 # Create an empty DataFrame with specified columns
 users = pd.DataFrame(columns=columns)
-
-
 # Generate blobs
-blobs, labels = make_blobs(n_samples=10000, n_features=len(users.columns), centers=30)
+blobsCluster, labels = make_blobs(n_samples=10000, n_features=len(users.columns), centers=30)
 scaler = MinMaxScaler()
-blobs = scaler.fit_transform(blobs)
+blobsCluster = scaler.fit_transform(blobsCluster)
+blobsRandom = np.random.random_sample((10000, 9))
+blobs = np.concatenate((blobsCluster, blobsRandom))
 
 # Create a DataFrame using the generated blobs
-users= pd.DataFrame(blobs, columns=users.columns)
+users = pd.DataFrame(blobs, columns=users.columns)
 
 male_mask = users['gender'] < 0.45
 divers_mask = (users['gender'] >= 0.49) & (users['gender'] <= 0.51)
@@ -43,6 +44,7 @@ users.loc[female_mask, 'gender'] = 1
 for i in range(8):
     age_mask = (users['age'] > i * (1/8)) & (users['age'] < i * (1/8) + 1/8)
     users.loc[age_mask, 'age'] = i * (0.25)
+
 """
 
 # Load in already created randomized users
@@ -79,7 +81,7 @@ def getKCentroids(k, df):
         centroids[i]= [np.random.uniform(0,1) for i in range(len(df.columns))]
     # how many times I will adjust the centroids
     # Source: Provided Example of Lecture
-    for i in range(40):
+    for i in range(15):
         # Hardcoded features here:
         df = pd.DataFrame(dict(age=df.values[:, 0], gender=df.values[:, 1], history=df.values[:, 2], art=df.values[:, 3], nature=df.values[:, 4], sports=df.values[:, 5], sciences=df.values[:, 6], sights=df.values[:, 7], fun_activities=df.values[:, 8], label=getLabels(centroids,df)))
         grouped = df.groupby('label')
@@ -132,19 +134,21 @@ def getElbow(df, lowerbound, upperbound):
 # K-MEANS IMPLEMENTATION OVER
 
 # Look for a good set of centroids
-# We will choose 50 for our amount of centroids
-centroidAmount = 50
+# We will choose 100 for our amount of centroids
+centroidAmount = 100
 
 # Loads in prev. determined best centroids
+
 fileName = "bestCentroidSet-size:{}".format(centroidAmount)
+
 with open("pythonData/" + fileName, 'rb') as file: 
     bestCentroids = pickle.load(file) 
 with open("pythonData/" + fileName + "ERROR", 'rb') as file:     
     lowestError = pickle.load(file)
 
-""""
-This piece of code can be used to retrain or try to find better ones
-#lowestError = 5
+"""
+# This piece of code can be used to retrain or try to find better ones
+#lowestError = 999
 #bestCentroids = []
 
 for i in range(1):
@@ -223,8 +227,8 @@ for id, values in bestCentroids.items():
     ratingDict[id] = R
 with open("pythonData/ratingDict", 'wb') as file: 
     pickle.dump(ratingDict, file)
-"""
 
+"""
 with open("pythonData/ratingDict", 'rb') as file: 
     ratingDict = pickle.load(file)
 
