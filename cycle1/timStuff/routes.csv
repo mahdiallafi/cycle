@@ -1,0 +1,21 @@
+Origin,Dest,Distance in seconds,Time in seconds
+Volksparkstadion,Millerntor-Stadion,7339,1474
+Volksparkstadion,St. Michaelis Church,8574,1658
+Volksparkstadion,St. Jacobi Church,10027,2000
+Volksparkstadion,St. Peter’s Church,9355,1888
+Millerntor-Stadion,Volksparkstadion,7142,1482
+Millerntor-Stadion,St. Michaelis Church,1734,360
+Millerntor-Stadion,St. Jacobi Church,3354,772
+Millerntor-Stadion,St. Peter’s Church,2584,620
+St. Michaelis Church,Volksparkstadion,8399,1653
+St. Michaelis Church,Millerntor-Stadion,1760,348
+St. Michaelis Church,St. Jacobi Church,1819,474
+St. Michaelis Church,St. Peter’s Church,1739,390
+St. Jacobi Church,Volksparkstadion,9974,1979
+St. Jacobi Church,Millerntor-Stadion,3335,674
+St. Jacobi Church,St. Michaelis Church,1794,386
+St. Jacobi Church,St. Peter’s Church,284,46
+St. Peter’s Church,Volksparkstadion,9381,1807
+St. Peter’s Church,Millerntor-Stadion,3216,662
+St. Peter’s Church,St. Michaelis Church,1675,374
+St. Peter’s Church,St. Jacobi Church,410,162
