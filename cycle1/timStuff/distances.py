@@ -17,11 +17,11 @@ places = places[["google_id", "name"]]
 # For testing purposes we will only work with 5 places
 places = places[:5]
 
-
+# User APIKEY
 with open("key", 'rb') as file: 
     apiKey = pickle.load(file) 
 
-
+# Build request
 placesPart = ""
 for place in places.iterrows():
     placesPart += "place_id:{}|".format(place[1]["google_id"])
@@ -29,6 +29,7 @@ placesPart = placesPart[:len(placesPart) -1]
 
 requestURL = "https://maps.googleapis.com/maps/api/distancematrix/json?mode=bicycling&destinations=" + placesPart + "&origins=" + placesPart + "&key=" + apiKey
 
+# Make request but check before it we have already done it before
 if not os.path.exists("pythonData/" + placesPart):
     #requestReturn = requests.get(requestURL)
     print("Made request")
@@ -39,9 +40,8 @@ else:
     with open("pythonData/" + placesPart, 'rb') as file: 
         requestReturn = pickle.load(file)
 
-
+# Create routes.csv from response
 jsonData = requestReturn.json()
-
 with open('routes.csv', 'w', newline='') as csvfile:
     csvWriter = csv.writer(csvfile)
     csvWriter.writerow(["Origin", "Dest", "Distance in seconds", "Time in seconds"])    
