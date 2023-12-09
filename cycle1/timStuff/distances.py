@@ -1,3 +1,8 @@
+""" This script reads:  places.csv
+                        key (API Key)
+
+    It takes the places and request the distance matrix from google maps API and saves it under routes.csv
+"""
 import pandas as pd
 import csv
 import pickle
