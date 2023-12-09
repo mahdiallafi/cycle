@@ -1,5 +1,6 @@
 #from routeProvider import findGreedyHead
 import pickle
+from routeProvider import getBestGreedy
 """
 with open("pythonData/modelCentroid{}".format(50), 'rb') as file: 
         Q = pickle.load(file)
@@ -7,7 +8,5 @@ with open("pythonData/modelCentroid{}".format(50), 'rb') as file:
 print(Q[10, 11, 99 , 79])
 """
 
-with open("pythonData/users", 'rb') as file: 
-    users = pickle.load(file) 
-
-print(users.iloc[0])
+userData = [1,1,1,1,1,1,1,1,1,1] # How to get the form data into this encoding we will do later.
+print(getBestGreedy("Volksparkstadion", 90000, 90000, userData, "Volksparkstadion"))

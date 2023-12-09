@@ -1,11 +1,16 @@
-""" This script reads:  ratingDict created by userGenerationAndEval.py (ratings for each centroid)
-                        routes.csv created by distances.py
-                        places.csv
-
-    It can train the Q-Matrices and saves them under pythonData/modelCentroid{centroid}
-    It provides the methods:    getBestGreedy(place, distance, time, userData) which provides the best greedy result for the given user
-                                getQResult(TODO)
 """
+This script reads:  ratingDict created by userGenerationAndEval.py (ratings for each centroid)
+                    routes.csv created by distances.py
+                    places.csv
+
+It can train the Q-Matrices and saves them under pythonData/modelCentroid{centroid}
+It provides the methods:    getBestGreedy(place, distance, time, userData) which provides the best greedy result for the given user
+                            getQResult(TODO)
+                            place = in Name not index
+                            distance and time in meters and seconds
+                            userData as a list
+"""
+
 import pandas as pd
 import numpy as np
 import csv
@@ -13,9 +18,11 @@ import pickle
 import requests
 from placeRater import ratePlace
 
+
+### Basic setup of global data for functions to use
+### Loading in routes and places and preparing them for use
 with open("pythonData/ratingDict", 'rb') as file: 
     ratingDict = pickle.load(file)
-
 ratingColumns = ["age1","age2","age3","age4","age5","age6","age7","age8","male","non-binary","female","history","art","nature","sports","sciences","sights","fun_activities"]
 places=pd.read_csv('places.csv', sep = ';', names=["google_id", "name", "description", "googleMapsURL", "address"] + ratingColumns)
 placeToIdx = {}
@@ -28,11 +35,9 @@ with open("places.csv", "r", newline="") as file:
         placeToIdx[key] = c
         idxToPlace[c] = key
         c += 1
-
 routes=pd.read_csv('routes.csv', names=["origin", "dest", "dist", "time"])
 routes = routes[1:] # top row of routes is rownames
 routes[["dist", "time"]] = routes[["dist", "time"]].astype(int)
-
 routesIndexed = routes.copy()
 routesIndexed['origin'] = routes['origin'].map(placeToIdx)
 routesIndexed['dest'] = routes['dest'].map(placeToIdx)
@@ -76,7 +81,7 @@ def findGreedy(curPlace, distanceLeft, timeLeft, goal, visited, valueFunction, r
         options = options.reset_index(drop=True)
     return None
 
-def findGreedyHead(curPlace, distanceLeft, timeLeft, valueFunction, ratingVector):
+def findGreedyHead(curPlace, distanceLeft, timeLeft, valueFunction, ratingVector, destination):
     options = routes[routes["origin"] == curPlace]
     options = options.reset_index(drop=True)
 
@@ -84,31 +89,47 @@ def findGreedyHead(curPlace, distanceLeft, timeLeft, valueFunction, ratingVector
         decisionIdx = getDecision(options, valueFunction, ratingVector)
         decision = options.iloc[decisionIdx]
         if decision["dist"] < distanceLeft and decision["time"] < timeLeft:
-            res = findGreedy(decision["dest"], distanceLeft - decision["dist"], timeLeft - decision["time"], curPlace, [decision["dest"]], valueFunction, ratingVector)
+            res = findGreedy(decision["dest"], distanceLeft - decision["dist"], timeLeft - decision["time"], destination, [decision["dest"]], valueFunction, ratingVector)
             if res != None:
-                return res
+                return res + [curPlace]
         options = options.drop(decisionIdx)
         options = options.reset_index(drop=True)
     return None
 
-def getBestGreedy(place, distance, time, userData):
+# This is the function which will be called from outside this script
+def getBestGreedy(place, distance, time, userData, destination):
     # Build ratingVector for user (it is acc a dict name of place -> rating)
     ratingVector = {}
     for sight in places.iterrows():
         ratingVector[sight[1]["name"]] = ratePlace(sight[1], userData)
 
-    greedyResults = [[None, findGreedyHead(place, distance, time, maxScore, ratingVector)], [None, findGreedyHead(place, distance, time, maxScoreTime, ratingVector)], [None, findGreedyHead(place, distance, time, maxScoreDistance, ratingVector)]]
+    greedyResults = [[None, findGreedyHead(place, distance, time, maxScore, ratingVector, destination)], [None, findGreedyHead(place, distance, time, maxScoreTime, ratingVector, destination)], [None, findGreedyHead(place, distance, time, maxScoreDistance, ratingVector, destination)]]
     for idx, result in enumerate(greedyResults):
         sum = 0
         for visitedPlace in result[1]:
             sum += ratingVector[visitedPlace]
         greedyResults[idx][0] = sum
-    return sorted(greedyResults, reverse=True)[0][1]
+
+    bestRes = sorted(greedyResults, reverse=True)[0][1]
+    returnList = []
+    for element in bestRes:
+        returnList.append(places.iloc[placeToIdx[element]])
+    return pd.DataFrame(returnList)
         
+### GREEDY IMPLEMENTATION OVER
+
+### Q-learning
 from collections import namedtuple
 State = namedtuple("State", ["place", "distance", "time"])
 gamma = 1
 alpha = 0.8
+distanceStep = 100 # in m
+timeStep = 120 # in seconds
+distanceIntervalls = 100
+timeIntervalls = 80
+
+MAXDISTANCE = distanceStep * distanceIntervalls
+MAXTIME = timeStep * timeIntervalls
 
 def available_actions(state):
     realisticOptions = []
@@ -126,12 +147,19 @@ def update(current_state, action, gamma, alpha, placeRatingsIndexed):
 def scoreQ():
     return (np.sum(Q / np.max(Q) * 100))
 
-def modelGetSteps(Q, startState):
-    destination = startState.place # .place is Index not in "name"
+# Function that will be called from outside
+def modelGetSteps(place, distance, time, userData):
+    closestCentroid = getCentroidOrder(userData)[0]
+
+    with open("pythonData/modelCentroid{}".format(closestCentroid), 'rb') as file: 
+        Q = pickle.load(file)
+
+    destination = placeToIdx[place] # .place is Index not in "name"
     steps = []
     visited = []
-    current_state = startState
+    current_state = State(destination, distance // distanceStep - 1, time // timeStep - 1)
     
+    ### TODO ACTUALLY WE DON'T HAVE A FIXED DESTINATION SO TIME TO FIX
     while True:
         next_step_list = np.where(Q[current_state.place, :, current_state.distance, current_state.time] == np.max(Q[current_state.place, :, current_state.distance, current_state.time]))[0]
         if len(next_step_list) == len(Q.shape[0]):
@@ -160,15 +188,8 @@ def modelGetSteps(Q, startState):
     return steps
 
 
+
 # Training
-distanceStep = 100 # in m
-timeStep = 120 # in seconds
-distanceIntervalls = 100
-timeIntervalls = 80
-
-MAXDISTANCE = distanceStep * distanceIntervalls
-MAXTIME = timeStep * timeIntervalls
-
 """
 print("Will be trained to deal with maximum start distance of:", MAXDISTANCE, "m")
 print("Will be trained to deal with maximum start time of:", MAXTIME, "s")
@@ -180,7 +201,7 @@ for idx, ratings in ratingDict.items():
     placeRatingsIndexed = {}
 
     #Q = np.zeros([len(places), len(places), distanceIntervalls, timeIntervalls])
-    with open("pythonData/modelCentroid{}".format(idx), 'wb') as file: 
+    with open("pythonData/modelCentroid{}".format(idx), 'rb') as file: 
         Q = pickle.load(file)
 
     for i, rating in enumerate(ratings):

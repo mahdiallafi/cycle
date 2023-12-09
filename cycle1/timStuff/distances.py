@@ -1,14 +1,14 @@
-""" This script reads:  places.csv
-                        key (API Key)
+""" 
+This script reads:  places.csv
+                    key (API Key)
 
-    It takes the places and request the distance matrix from google maps API and saves it under routes.csv
+It takes the places and request the distance matrix from google maps API and saves it under routes.csv
 """
 import pandas as pd
 import csv
 import pickle
 import requests
 import os
-
 
 # Load the places dataframe
 ratingColumns = ["age1","age2","age3","age4","age5","age6","age7","age8","male","non-binary","female","history","art","nature","sports","sciences","sights","fun_activities"]
