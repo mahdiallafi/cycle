@@ -64,6 +64,7 @@ def getDecision(options, valueFunction, ratingVector):
 def findGreedy(curPlace, distanceLeft, timeLeft, goal, visited, valueFunction, ratingVector):
     if curPlace == goal:
         return [curPlace]
+
     options = routes[routes["origin"] == curPlace]
     options = options[~options["dest"].isin(visited)]
     options = options.reset_index(drop=True)
@@ -76,9 +77,12 @@ def findGreedy(curPlace, distanceLeft, timeLeft, goal, visited, valueFunction, r
             newRoute.append(decision["dest"])
             res = findGreedy(decision["dest"], distanceLeft - decision["dist"], timeLeft - decision["time"], goal, newRoute, valueFunction, ratingVector)
             if res != None:
-                return res + [curPlace]
+                return [curPlace] + res
         options = options.drop(decisionIdx)
         options = options.reset_index(drop=True)
+    
+    if goal is None:
+        return [curPlace]
     return None
 
 def findGreedyHead(curPlace, distanceLeft, timeLeft, valueFunction, ratingVector, destination):
@@ -91,13 +95,17 @@ def findGreedyHead(curPlace, distanceLeft, timeLeft, valueFunction, ratingVector
         if decision["dist"] < distanceLeft and decision["time"] < timeLeft:
             res = findGreedy(decision["dest"], distanceLeft - decision["dist"], timeLeft - decision["time"], destination, [decision["dest"]], valueFunction, ratingVector)
             if res != None:
-                return res + [curPlace]
+                return [curPlace] + res
         options = options.drop(decisionIdx)
         options = options.reset_index(drop=True)
-    return None
+    return [curPlace]
 
 # This is the function which will be called from outside this script
 def getBestGreedy(place, distance, time, userData, destination):
+    if place is None:
+        row = places.sample(n=1)
+        place = row.values[0][1]
+
     # Build ratingVector for user (it is acc a dict name of place -> rating)
     ratingVector = {}
     for sight in places.iterrows():

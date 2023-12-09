@@ -9,4 +9,4 @@ print(Q[10, 11, 99 , 79])
 """
 
 userData = [1,1,1,1,1,1,1,1,1,1] # How to get the form data into this encoding we will do later.
-print(getBestGreedy("Volksparkstadion", 90000, 90000, userData, "Volksparkstadion"))
+print(getBestGreedy(None, 15000, 90000, userData, "St. Peter’s Church"))
