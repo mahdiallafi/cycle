@@ -11,7 +11,7 @@ import requests
 import os
 
 # Load the places dataframe
-ratingColumns = ["age1","age2","age3","age4","age5","age6","age7","age8","male","non-binary","female","history","art","nature","sports","sciences","sights","fun_activities"]
+ratingColumns = ["age1","age2","age3","age4","age5","age6","age7","age8","male","non-binary","female","history","art","nature","museums","churches","sights","fun_activities"]
 places=pd.read_csv('places.csv', sep = ';', names=["google_id", "name", "description", "googleMapsURL", "address"] + ratingColumns)
 addressToName = {}
 for place in places.iterrows():

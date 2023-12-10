@@ -16,7 +16,7 @@ Gender: Male, Female, Non-Binary (Card. 3)
 History, Art, Nature, Sports, Sciences, Sights, Fun Activities: Continuous between 0% - 100% interest (sliders)
 """
 
-columns = ["age", "gender", "history", "art", "nature", "sports", "sciences", "sights", "fun_activities"]
+columns = ["age", "gender", "history", "art", "nature", "museums", "churches", "sights", "fun_activities"]
 
 # Create randomized users
 

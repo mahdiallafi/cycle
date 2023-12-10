@@ -10,10 +10,10 @@ import numpy as np
 import csv
 import pickle
 import matplotlib.pyplot as plt
-from placeRater import ratePlace
+from .placeRater import ratePlace
 
 # Load in already created randomized users
-with open("pythonData/users", 'rb') as file: 
+with open("cycle1/timStuff/pythonData/users", 'rb') as file: 
     users = pickle.load(file) 
 
 # THIS FOLLOWING SECTION IS THE K-MEANS:
@@ -105,9 +105,9 @@ centroidAmount = 100
 # Loads in prev. determined best centroids
 fileName = "bestCentroidSet-size:{}".format(centroidAmount)
 
-with open("pythonData/" + fileName, 'rb') as file: 
+with open("cycle1/timStuff/pythonData/" + fileName, 'rb') as file: 
     bestCentroids = pickle.load(file) 
-with open("pythonData/" + fileName + "ERROR", 'rb') as file:     
+with open("cycle1/timStuff/pythonData/" + fileName + "ERROR", 'rb') as file:     
     lowestError = pickle.load(file)
 
 """
@@ -122,9 +122,9 @@ for i in range(1):
         lowestError = error
         bestCentroids = centroids
 
-with open("pythonData/" + fileName, 'wb') as file: 
+with open("cycle1/timStuff/pythonData/" + fileName, 'wb') as file: 
     pickle.dump(bestCentroids, file)
-with open("pythonData/" + fileName + "ERROR", 'wb') as file:     
+with open("cycle1/timStuff/pythonData/" + fileName + "ERROR", 'wb') as file:     
     pickle.dump(lowestError, file)
 print(lowestError)
 """
@@ -142,7 +142,7 @@ def getCentroidOrder(data):
 
 # Load in places
 """
-ratingColumns = ["age1","age2","age3","age4","age5","age6","age7","age8","male","non-binary","female","history","art","nature","sports","sciences","sights","fun_activities"]
+ratingColumns = ["age1","age2","age3","age4","age5","age6","age7","age8","male","non-binary","female","history","art","nature","museums","churches","sights","fun_activities"]
 places=pd.read_csv('places.csv', sep = ';', names=["google_id", "name", "description", "googleMapsURL", "address"] + ratingColumns)
 places[ratingColumns] = places[ratingColumns].astype(float)
 
@@ -153,7 +153,7 @@ for id, values in bestCentroids.items():
     for sight in places.iterrows():
         R.append(ratePlace(sight[1], values))
     ratingDict[id] = R
-with open("pythonData/ratingDict", 'wb') as file: 
+with open("cycle1/timStuff/pythonData/ratingDict", 'wb') as file: 
     pickle.dump(ratingDict, file)
 
 """

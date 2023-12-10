@@ -28,8 +28,8 @@ def ratePlace(placeStats, personStats):
     sum += placeStats["history"] * personStats[2]
     sum += placeStats["art"] * personStats[3]
     sum += placeStats["nature"] * personStats[4]
-    sum += placeStats["sports"] * personStats[5]
-    sum += placeStats["sciences"] * personStats[6]
+    sum += placeStats["museums"] * personStats[5]
+    sum += placeStats["churches"] * personStats[6]
     sum += placeStats["sights"] * personStats[7]
     sum += placeStats["fun_activities"] * personStats[8]
     return sum
