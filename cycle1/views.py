@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from .knn_script import run_knn
 from .forms import CycleForm
+from .timStuff.routeProvider import getBest
+from .timStuff.userDataProcessor import processUserData
 import pandas as pd
 
 # Create your views here.
@@ -19,7 +21,7 @@ def services(request):
     return render(request, 'services.html')
 
 def fill_form(request):
-    cities = pd.read_csv('/home/mahdi/cycleing/python/cycleapp/cycle1/timStuff/places.csv', delimiter=';', low_memory=False)
+    cities = pd.read_csv('cycle1/timStuff/places.csv', delimiter=';', low_memory=False)
     city_list = cities.iloc[:, 1].tolist()
     return render(request, 'fill_form.html',{'city_list': city_list})
 
@@ -50,11 +52,13 @@ def submit_form(request):
             funActivities = form.cleaned_data['funActivities']
             maxDestination = form.cleaned_data['maxDestination']
             minDestination = form.cleaned_data['minDestination']
-            origin = form.cleaned_data['origin']  # Corrected from 'orgin' to 'origin'
+            origin = form.cleaned_data['origin']
             destination = form.cleaned_data['destination']
 
             # Process the data using your Python script
-            similar_items = run_knn(mapped_age, gender, maxDestination, minDestination, history, art, nature, sights, funActivities, origin, destination)
+            similar_items = getBest(origin, maxDestination, processUserData(mapped_age, gender, history, art, nature, museums, churches, sights, funActivities), destination)
+            # TODO: We are missing museums and churches values, remove minDestination and rename maxDestination to targetDistance or something like that
+
 
             result_dict_list = similar_items
             # Pass similar_items to the template

@@ -1,21 +1,1601 @@
 Origin,Dest,Distance in seconds,Time in seconds
-Volksparkstadion,Millerntor-Stadion,7339,1474
-Volksparkstadion,St. Michaelis Church,8574,1658
-Volksparkstadion,St. Jacobi Church,10027,2000
-Volksparkstadion,St. Peter’s Church,9355,1888
-Millerntor-Stadion,Volksparkstadion,7142,1482
+Volksparkstadion & HSV-Museum,Millerntor-Stadion,7095,1422
+Millerntor-Stadion,Volksparkstadion & HSV-Museum,7302,1452
+St. Michaelis Church,Volksparkstadion & HSV-Museum,8558,1623
+St. Michaelis Church,Millerntor-Stadion,1760,348
+St. Jacobi Church,Volksparkstadion & HSV-Museum,10133,1950
+St. Jacobi Church,Millerntor-Stadion,3335,674
+St. Peter’s Church,Volksparkstadion & HSV-Museum,9381,1807
+St. Peter’s Church,Millerntor-Stadion,3216,662
+St. Katharinen Church,Volksparkstadion & HSV-Museum,9756,1874
+St. Katharinen Church,Millerntor-Stadion,2958,598
+St. Nikolai Church,Volksparkstadion & HSV-Museum,9317,1798
+St. Nikolai Church,Millerntor-Stadion,2519,522
+St. Ansgar and Bernhard Church ,Volksparkstadion & HSV-Museum,8792,1718
+St. Ansgar and Bernhard Church ,Millerntor-Stadion,1994,443
+St Mary's Cathedral,Volksparkstadion & HSV-Museum,9898,1978
+St Mary's Cathedral,Millerntor-Stadion,4848,948
+St. Johannis-Harvestehude Church,Volksparkstadion & HSV-Museum,8197,1661
+St. Johannis-Harvestehude Church,Millerntor-Stadion,3844,859
+St. Gertrud Church,Volksparkstadion & HSV-Museum,10965,2184
+St. Gertrud Church,Millerntor-Stadion,5988,1299
+Elbphilharmonie,Volksparkstadion & HSV-Museum,9916,1999
+Elbphilharmonie,Millerntor-Stadion,3118,723
+Stage Operettenhaus,Volksparkstadion & HSV-Museum,8220,1579
+Stage Operettenhaus,Millerntor-Stadion,1422,304
+Miniature Wonderland,Volksparkstadion & HSV-Museum,9619,1905
+Miniature Wonderland,Millerntor-Stadion,2821,630
+Olivia Jones Bar,Volksparkstadion & HSV-Museum,7248,1427
+Olivia Jones Bar,Millerntor-Stadion,1207,254
+Citypark,Volksparkstadion & HSV-Museum,8453,1798
+Citypark,Millerntor-Stadion,6612,1474
+Planten un Blomen,Volksparkstadion & HSV-Museum,7556,1436
+Planten un Blomen,Millerntor-Stadion,1638,397
+Altona Volkspark,Volksparkstadion & HSV-Museum,1290,224
+Altona Volkspark,Millerntor-Stadion,6275,1258
+Cherry avenue in the main cemetery Altona,Volksparkstadion & HSV-Museum,692,140
+Cherry avenue in the main cemetery Altona,Millerntor-Stadion,7738,1536
+Citypark,Volksparkstadion & HSV-Museum,8381,1745
+Citypark,Millerntor-Stadion,6292,1417
+Alsterpark,Volksparkstadion & HSV-Museum,8572,1898
+Alsterpark,Millerntor-Stadion,4329,1087
+Schanzenpark,Volksparkstadion & HSV-Museum,6535,1288
+Schanzenpark,Millerntor-Stadion,1939,422
+International Maritime Museum,Volksparkstadion & HSV-Museum,10326,2104
+International Maritime Museum,Millerntor-Stadion,3528,828
+Speicherstadtmuseum,Volksparkstadion & HSV-Museum,9956,1933
+Speicherstadtmuseum,Millerntor-Stadion,3158,658
+Altona Museum,Volksparkstadion & HSV-Museum,6079,1088
+Altona Museum,Millerntor-Stadion,3167,559
+Museum of Hamburg History,Volksparkstadion & HSV-Museum,8252,1558
+Museum of Hamburg History,Millerntor-Stadion,1455,282
+Museum of Illusions,Volksparkstadion & HSV-Museum,9892,1911
+Museum of Illusions,Millerntor-Stadion,3800,777
+U-Boat Museum,Volksparkstadion & HSV-Museum,8397,1717
+U-Boat Museum,Millerntor-Stadion,2928,637
+Hamburg Art Gallery,Volksparkstadion & HSV-Museum,9295,1884
+Hamburg Art Gallery,Millerntor-Stadion,4086,802
+Gilde Bowling Alley,Volksparkstadion & HSV-Museum,3859,775
+Gilde Bowling Alley,Millerntor-Stadion,5612,1152
+U.S. FUN BOWLING,Volksparkstadion & HSV-Museum,12061,2365
+U.S. FUN BOWLING,Millerntor-Stadion,7083,1480
+Tower Tag Arena Hamburg,Volksparkstadion & HSV-Museum,9782,1911
+Tower Tag Arena Hamburg,Millerntor-Stadion,2984,636
+Lasertag Hamburg St. Pauli,Volksparkstadion & HSV-Museum,8411,1616
+Lasertag Hamburg St. Pauli,Millerntor-Stadion,1613,340
+Minigolf course Planten un Blomen,Volksparkstadion & HSV-Museum,8219,1732
+Minigolf course Planten un Blomen,Millerntor-Stadion,1421,457
+City Hall,Volksparkstadion & HSV-Museum,9609,1858
+City Hall,Millerntor-Stadion,2811,583
+Panoptikum,Volksparkstadion & HSV-Museum,8261,1587
+Panoptikum,Millerntor-Stadion,1464,311
+St. Pauli Landing Bridges & Old Elbe Tunnel,Volksparkstadion & HSV-Museum,8837,1748
+St. Pauli Landing Bridges & Old Elbe Tunnel,Millerntor-Stadion,2039,472
+Alster fountain,Volksparkstadion & HSV-Museum,9391,1810
+Alster fountain,Millerntor-Stadion,3299,675
+Speicherstadt,Volksparkstadion & HSV-Museum,10375,2085
+Speicherstadt,Millerntor-Stadion,3577,810
+Altona Town Hall,Volksparkstadion & HSV-Museum,6265,1146
+Altona Town Hall,Millerntor-Stadion,3203,624
+Fish auction hall,Volksparkstadion & HSV-Museum,8238,1688
+Fish auction hall,Millerntor-Stadion,2769,607
+Volksparkstadion & HSV-Museum,St. Michaelis Church,8330,1606
+Volksparkstadion & HSV-Museum,St. Jacobi Church,9950,2018
 Millerntor-Stadion,St. Michaelis Church,1734,360
 Millerntor-Stadion,St. Jacobi Church,3354,772
-Millerntor-Stadion,St. Peter’s Church,2584,620
-St. Michaelis Church,Volksparkstadion,8399,1653
-St. Michaelis Church,Millerntor-Stadion,1760,348
 St. Michaelis Church,St. Jacobi Church,1819,474
-St. Michaelis Church,St. Peter’s Church,1739,390
-St. Jacobi Church,Volksparkstadion,9974,1979
-St. Jacobi Church,Millerntor-Stadion,3335,674
 St. Jacobi Church,St. Michaelis Church,1794,386
-St. Jacobi Church,St. Peter’s Church,284,46
-St. Peter’s Church,Volksparkstadion,9381,1807
-St. Peter’s Church,Millerntor-Stadion,3216,662
 St. Peter’s Church,St. Michaelis Church,1675,374
 St. Peter’s Church,St. Jacobi Church,410,162
+St. Katharinen Church,St. Michaelis Church,1417,310
+St. Katharinen Church,St. Jacobi Church,970,307
+St. Nikolai Church,St. Michaelis Church,1005,245
+St. Nikolai Church,St. Jacobi Church,1151,367
+St. Ansgar and Bernhard Church ,St. Michaelis Church,480,166
+St. Ansgar and Bernhard Church ,St. Jacobi Church,1541,445
+St Mary's Cathedral,St. Michaelis Church,3307,660
+St Mary's Cathedral,St. Jacobi Church,1619,337
+St. Johannis-Harvestehude Church,St. Michaelis Church,3504,768
+St. Johannis-Harvestehude Church,St. Jacobi Church,3561,719
+St. Gertrud Church,St. Michaelis Church,4473,1022
+St. Gertrud Church,St. Jacobi Church,3311,707
+Elbphilharmonie,St. Michaelis Church,1577,435
+Elbphilharmonie,St. Jacobi Church,1902,546
+Stage Operettenhaus,St. Michaelis Church,1041,177
+Stage Operettenhaus,St. Jacobi Church,2602,631
+Miniature Wonderland,St. Michaelis Church,1280,342
+Miniature Wonderland,St. Jacobi Church,1329,421
+Olivia Jones Bar,St. Michaelis Church,1723,341
+Olivia Jones Bar,St. Jacobi Church,3344,753
+Citypark,St. Michaelis Church,6892,1471
+Citypark,St. Jacobi Church,6848,1352
+Planten un Blomen,St. Michaelis Church,1832,446
+Planten un Blomen,St. Jacobi Church,1952,415
+Altona Volkspark,St. Michaelis Church,7509,1442
+Altona Volkspark,St. Jacobi Church,9130,1855
+Cherry avenue in the main cemetery Altona,St. Michaelis Church,8973,1720
+Cherry avenue in the main cemetery Altona,St. Jacobi Church,10593,2133
+Citypark,St. Michaelis Church,7341,1520
+Citypark,St. Jacobi Church,6319,1266
+Alsterpark,St. Michaelis Church,3539,918
+Alsterpark,St. Jacobi Church,3433,847
+Schanzenpark,St. Michaelis Church,2573,579
+Schanzenpark,St. Jacobi Church,3729,721
+International Maritime Museum,St. Michaelis Church,1987,540
+International Maritime Museum,St. Jacobi Church,1395,386
+Speicherstadtmuseum,St. Michaelis Church,1617,370
+Speicherstadtmuseum,St. Jacobi Church,2019,527
+Altona Museum,St. Michaelis Church,3322,654
+Altona Museum,St. Jacobi Church,4943,1066
+Museum of Hamburg History,St. Michaelis Church,611,125
+Museum of Hamburg History,St. Jacobi Church,2232,512
+Museum of Illusions,St. Michaelis Church,2577,518
+Museum of Illusions,St. Jacobi Church,955,203
+U-Boat Museum,St. Michaelis Church,1953,481
+U-Boat Museum,St. Jacobi Church,3547,856
+Hamburg Art Gallery,St. Michaelis Church,2545,514
+Hamburg Art Gallery,St. Jacobi Church,888,168
+Gilde Bowling Alley,St. Michaelis Church,6382,1172
+Gilde Bowling Alley,St. Jacobi Church,8003,1585
+U.S. FUN BOWLING,St. Michaelis Church,5569,1203
+U.S. FUN BOWLING,St. Jacobi Church,4531,953
+Tower Tag Arena Hamburg,St. Michaelis Church,1443,348
+Tower Tag Arena Hamburg,St. Jacobi Church,1492,427
+Lasertag Hamburg St. Pauli,St. Michaelis Church,1219,211
+Lasertag Hamburg St. Pauli,St. Jacobi Church,2793,668
+Minigolf course Planten un Blomen,St. Michaelis Church,863,347
+Minigolf course Planten un Blomen,St. Jacobi Church,2483,760
+City Hall,St. Michaelis Church,1296,306
+City Hall,St. Jacobi Church,800,267
+Panoptikum,St. Michaelis Church,1083,184
+Panoptikum,St. Jacobi Church,2643,639
+St. Pauli Landing Bridges & Old Elbe Tunnel,St. Michaelis Church,1229,346
+St. Pauli Landing Bridges & Old Elbe Tunnel,St. Jacobi Church,2822,720
+Alster fountain,St. Michaelis Church,1785,398
+Alster fountain,St. Jacobi Church,646,241
+Speicherstadt,St. Michaelis Church,2036,522
+Speicherstadt,St. Jacobi Church,1155,397
+Altona Town Hall,St. Michaelis Church,3091,604
+Altona Town Hall,St. Jacobi Church,4712,1017
+Fish auction hall,St. Michaelis Church,2356,463
+Fish auction hall,St. Jacobi Church,3779,924
+Volksparkstadion & HSV-Museum,St. Peter’s Church,9870,1934
+Volksparkstadion & HSV-Museum,St. Katharinen Church,9616,1848
+Millerntor-Stadion,St. Peter’s Church,2584,620
+Millerntor-Stadion,St. Katharinen Church,3020,602
+St. Michaelis Church,St. Peter’s Church,1739,390
+St. Michaelis Church,St. Katharinen Church,1485,305
+St. Jacobi Church,St. Peter’s Church,284,46
+St. Jacobi Church,St. Katharinen Church,901,203
+St. Peter’s Church,St. Katharinen Church,782,191
+St. Katharinen Church,St. Peter’s Church,890,222
+St. Nikolai Church,St. Peter’s Church,1186,251
+St. Nikolai Church,St. Katharinen Church,817,197
+St. Ansgar and Bernhard Church ,St. Peter’s Church,1270,249
+St. Ansgar and Bernhard Church ,St. Katharinen Church,1207,275
+St Mary's Cathedral,St. Peter’s Church,1731,306
+St Mary's Cathedral,St. Katharinen Church,2414,477
+St. Johannis-Harvestehude Church,St. Peter’s Church,2888,607
+St. Johannis-Harvestehude Church,St. Katharinen Church,3458,746
+St. Gertrud Church,St. Peter’s Church,3392,699
+St. Gertrud Church,St. Katharinen Church,4075,870
+Elbphilharmonie,St. Peter’s Church,1819,438
+Elbphilharmonie,St. Katharinen Church,1096,248
+Stage Operettenhaus,St. Peter’s Church,2522,547
+Stage Operettenhaus,St. Katharinen Church,2268,462
+Miniature Wonderland,St. Peter’s Church,1224,362
+Miniature Wonderland,St. Katharinen Church,500,171
+Olivia Jones Bar,St. Peter’s Church,3264,669
+Olivia Jones Bar,St. Katharinen Church,3010,583
+Citypark,St. Peter’s Church,6642,1340
+Citypark,St. Katharinen Church,7311,1514
+Planten un Blomen,St. Peter’s Church,1279,303
+Planten un Blomen,St. Katharinen Church,1849,442
+Altona Volkspark,St. Peter’s Church,9050,1770
+Altona Volkspark,St. Katharinen Church,8796,1685
+Cherry avenue in the main cemetery Altona,St. Peter’s Church,10513,2048
+Cherry avenue in the main cemetery Altona,St. Katharinen Church,10259,1963
+Citypark,St. Peter’s Church,6113,1254
+Citypark,St. Katharinen Church,6782,1428
+Alsterpark,St. Peter’s Church,2962,766
+Alsterpark,St. Katharinen Church,3532,905
+Schanzenpark,St. Peter’s Church,3057,609
+Schanzenpark,St. Katharinen Church,3533,759
+International Maritime Museum,St. Peter’s Church,1024,308
+International Maritime Museum,St. Katharinen Church,659,238
+Speicherstadtmuseum,St. Peter’s Church,1939,443
+Speicherstadtmuseum,St. Katharinen Church,774,224
+Altona Museum,St. Peter’s Church,4863,982
+Altona Museum,St. Katharinen Church,4609,897
+Museum of Hamburg History,St. Peter’s Church,2152,427
+Museum of Hamburg History,St. Katharinen Church,1898,342
+Museum of Illusions,St. Peter’s Church,632,142
+Museum of Illusions,St. Katharinen Church,1685,335
+U-Boat Museum,St. Peter’s Church,3467,771
+U-Boat Museum,St. Katharinen Church,3213,686
+Hamburg Art Gallery,St. Peter’s Church,969,160
+Hamburg Art Gallery,St. Katharinen Church,1652,331
+Gilde Bowling Alley,St. Peter’s Church,7923,1500
+Gilde Bowling Alley,St. Katharinen Church,7669,1415
+U.S. FUN BOWLING,St. Peter’s Church,4341,937
+U.S. FUN BOWLING,St. Katharinen Church,5010,1112
+Tower Tag Arena Hamburg,St. Peter’s Church,1387,368
+Tower Tag Arena Hamburg,St. Katharinen Church,663,178
+Lasertag Hamburg St. Pauli,St. Peter’s Church,2713,583
+Lasertag Hamburg St. Pauli,St. Katharinen Church,2459,498
+Minigolf course Planten un Blomen,St. Peter’s Church,2403,675
+Minigolf course Planten un Blomen,St. Katharinen Church,2149,590
+City Hall,St. Peter’s Church,537,130
+City Hall,St. Katharinen Church,1325,255
+Panoptikum,St. Peter’s Church,2563,554
+Panoptikum,St. Katharinen Church,2309,469
+St. Pauli Landing Bridges & Old Elbe Tunnel,St. Peter’s Church,2742,635
+St. Pauli Landing Bridges & Old Elbe Tunnel,St. Katharinen Church,2488,550
+Alster fountain,St. Peter’s Church,557,132
+Alster fountain,St. Katharinen Church,1226,307
+Speicherstadt,St. Peter’s Church,1073,290
+Speicherstadt,St. Katharinen Church,709,220
+Altona Town Hall,St. Peter’s Church,4632,932
+Altona Town Hall,St. Katharinen Church,4378,847
+Fish auction hall,St. Peter’s Church,3699,839
+Fish auction hall,St. Katharinen Church,3445,754
+Volksparkstadion & HSV-Museum,St. Nikolai Church,9584,1863
+Volksparkstadion & HSV-Museum,St. Ansgar and Bernhard Church ,8888,1735
+Millerntor-Stadion,St. Nikolai Church,2988,617
+Millerntor-Stadion,St. Ansgar and Bernhard Church ,1794,404
+St. Michaelis Church,St. Nikolai Church,1453,319
+St. Michaelis Church,St. Ansgar and Bernhard Church ,627,125
+St. Jacobi Church,St. Nikolai Church,801,153
+St. Jacobi Church,St. Ansgar and Bernhard Church ,1545,306
+St. Peter’s Church,St. Nikolai Church,681,141
+St. Peter’s Church,St. Ansgar and Bernhard Church ,1140,224
+St. Katharinen Church,St. Nikolai Church,604,152
+St. Katharinen Church,St. Ansgar and Bernhard Church ,1127,241
+St. Nikolai Church,St. Ansgar and Bernhard Church ,745,153
+St. Ansgar and Bernhard Church ,St. Nikolai Church,1175,290
+St Mary's Cathedral,St. Nikolai Church,2313,427
+St Mary's Cathedral,St. Ansgar and Bernhard Church ,2786,521
+St. Johannis-Harvestehude Church,St. Nikolai Church,3357,696
+St. Johannis-Harvestehude Church,St. Ansgar and Bernhard Church ,3137,655
+St. Gertrud Church,St. Nikolai Church,3974,820
+St. Gertrud Church,St. Ansgar and Bernhard Church ,3987,872
+Elbphilharmonie,St. Nikolai Church,1677,379
+Elbphilharmonie,St. Ansgar and Bernhard Church ,1287,366
+Stage Operettenhaus,St. Nikolai Church,2236,476
+Stage Operettenhaus,St. Ansgar and Bernhard Church ,1535,273
+Miniature Wonderland,St. Nikolai Church,963,266
+Miniature Wonderland,St. Ansgar and Bernhard Church ,989,272
+Olivia Jones Bar,St. Nikolai Church,2977,598
+Olivia Jones Bar,St. Ansgar and Bernhard Church ,2282,470
+Citypark,St. Nikolai Church,7210,1464
+Citypark,St. Ansgar and Bernhard Church ,6525,1358
+Planten un Blomen,St. Nikolai Church,1748,392
+Planten un Blomen,St. Ansgar and Bernhard Church ,1719,390
+Altona Volkspark,St. Nikolai Church,8764,1700
+Altona Volkspark,St. Ansgar and Bernhard Church ,8068,1572
+Cherry avenue in the main cemetery Altona,St. Nikolai Church,10227,1978
+Cherry avenue in the main cemetery Altona,St. Ansgar and Bernhard Church ,9531,1850
+Citypark,St. Nikolai Church,6681,1378
+Citypark,St. Ansgar and Bernhard Church ,6205,1301
+Alsterpark,St. Nikolai Church,3431,855
+Alsterpark,St. Ansgar and Bernhard Church ,3172,806
+Schanzenpark,St. Nikolai Church,3526,697
+Schanzenpark,St. Ansgar and Bernhard Church ,2713,552
+International Maritime Museum,St. Nikolai Church,1009,316
+International Maritime Museum,St. Ansgar and Bernhard Church ,1696,470
+Speicherstadtmuseum,St. Nikolai Church,1653,372
+Speicherstadtmuseum,St. Ansgar and Bernhard Church ,1327,300
+Altona Museum,St. Nikolai Church,4577,911
+Altona Museum,St. Ansgar and Bernhard Church ,3881,783
+Museum of Hamburg History,St. Nikolai Church,1865,357
+Museum of Hamburg History,St. Ansgar and Bernhard Church ,820,127
+Museum of Illusions,St. Nikolai Church,1584,285
+Museum of Illusions,St. Ansgar and Bernhard Church ,1799,351
+U-Boat Museum,St. Nikolai Church,3181,701
+U-Boat Museum,St. Ansgar and Bernhard Church ,2358,551
+Hamburg Art Gallery,St. Nikolai Church,1551,281
+Hamburg Art Gallery,St. Ansgar and Bernhard Church ,2024,375
+Gilde Bowling Alley,St. Nikolai Church,7637,1430
+Gilde Bowling Alley,St. Ansgar and Bernhard Church ,6941,1302
+U.S. FUN BOWLING,St. Nikolai Church,4910,1061
+U.S. FUN BOWLING,St. Ansgar and Bernhard Church ,5083,1053
+Tower Tag Arena Hamburg,St. Nikolai Church,1126,272
+Tower Tag Arena Hamburg,St. Ansgar and Bernhard Church ,1152,278
+Lasertag Hamburg St. Pauli,St. Nikolai Church,2427,513
+Lasertag Hamburg St. Pauli,St. Ansgar and Bernhard Church ,1713,308
+Minigolf course Planten un Blomen,St. Nikolai Church,2117,605
+Minigolf course Planten un Blomen,St. Ansgar and Bernhard Church ,1025,397
+City Hall,St. Nikolai Church,695,147
+City Hall,St. Ansgar and Bernhard Church ,811,156
+Panoptikum,St. Nikolai Church,2277,484
+Panoptikum,St. Ansgar and Bernhard Church ,1577,281
+St. Pauli Landing Bridges & Old Elbe Tunnel,St. Nikolai Church,2456,565
+St. Pauli Landing Bridges & Old Elbe Tunnel,St. Ansgar and Bernhard Church ,1634,416
+Alster fountain,St. Nikolai Church,1125,257
+Alster fountain,St. Ansgar and Bernhard Church ,1299,249
+Speicherstadt,St. Nikolai Church,1058,297
+Speicherstadt,St. Ansgar and Bernhard Church ,1745,452
+Altona Town Hall,St. Nikolai Church,4346,862
+Altona Town Hall,St. Ansgar and Bernhard Church ,3650,733
+Fish auction hall,St. Nikolai Church,3413,769
+Fish auction hall,St. Ansgar and Bernhard Church ,2590,620
+Volksparkstadion & HSV-Museum,St Mary's Cathedral,9599,1883
+Volksparkstadion & HSV-Museum,St. Johannis-Harvestehude Church,7857,1666
+Millerntor-Stadion,St Mary's Cathedral,3700,828
+Millerntor-Stadion,St. Johannis-Harvestehude Church,3290,776
+St. Michaelis Church,St Mary's Cathedral,3336,678
+St. Michaelis Church,St. Johannis-Harvestehude Church,3325,723
+St. Jacobi Church,St Mary's Cathedral,1697,306
+St. Jacobi Church,St. Johannis-Harvestehude Church,3099,638
+St. Peter’s Church,St Mary's Cathedral,1708,307
+St. Peter’s Church,St. Johannis-Harvestehude Church,2815,592
+St. Katharinen Church,St Mary's Cathedral,2487,510
+St. Katharinen Church,St. Johannis-Harvestehude Church,3524,810
+St. Nikolai Church,St Mary's Cathedral,2747,534
+St. Nikolai Church,St. Johannis-Harvestehude Church,3497,714
+St. Ansgar and Bernhard Church ,St Mary's Cathedral,2673,510
+St. Ansgar and Bernhard Church ,St. Johannis-Harvestehude Church,3301,659
+St Mary's Cathedral,St. Johannis-Harvestehude Church,3313,706
+St. Johannis-Harvestehude Church,St Mary's Cathedral,3061,614
+St. Gertrud Church,St Mary's Cathedral,1805,424
+St. Gertrud Church,St. Johannis-Harvestehude Church,4428,921
+Elbphilharmonie,St Mary's Cathedral,3174,724
+Elbphilharmonie,St. Johannis-Harvestehude Church,4333,980
+Stage Operettenhaus,St Mary's Cathedral,4119,835
+Stage Operettenhaus,St. Johannis-Harvestehude Church,3828,926
+Miniature Wonderland,St Mary's Cathedral,2792,684
+Miniature Wonderland,St. Johannis-Harvestehude Church,3798,854
+Olivia Jones Bar,St Mary's Cathedral,4861,956
+Olivia Jones Bar,St. Johannis-Harvestehude Church,4276,940
+Citypark,St Mary's Cathedral,5459,1088
+Citypark,St. Johannis-Harvestehude Church,3598,763
+Planten un Blomen,St Mary's Cathedral,1966,428
+Planten un Blomen,St. Johannis-Harvestehude Church,1588,336
+Altona Volkspark,St Mary's Cathedral,10411,2003
+Altona Volkspark,St. Johannis-Harvestehude Church,8669,1786
+Cherry avenue in the main cemetery Altona,St Mary's Cathedral,10639,2071
+Cherry avenue in the main cemetery Altona,St. Johannis-Harvestehude Church,8897,1854
+Citypark,St Mary's Cathedral,4930,1002
+Citypark,St. Johannis-Harvestehude Church,3279,706
+Alsterpark,St Mary's Cathedral,2949,702
+Alsterpark,St. Johannis-Harvestehude Church,613,309
+Schanzenpark,St Mary's Cathedral,3302,604
+Schanzenpark,St. Johannis-Harvestehude Church,2004,473
+International Maritime Museum,St Mary's Cathedral,2210,501
+International Maritime Museum,St. Johannis-Harvestehude Church,3660,911
+Speicherstadtmuseum,St Mary's Cathedral,2951,736
+Speicherstadtmuseum,St. Johannis-Harvestehude Church,4477,932
+Altona Museum,St Mary's Cathedral,6460,1270
+Altona Museum,St. Johannis-Harvestehude Church,5309,1114
+Museum of Hamburg History,St Mary's Cathedral,3479,649
+Museum of Hamburg History,St. Johannis-Harvestehude Church,3099,662
+Museum of Illusions,St Mary's Cathedral,970,174
+Museum of Illusions,St. Johannis-Harvestehude Church,3326,696
+U-Boat Museum,St Mary's Cathedral,5234,1099
+U-Boat Museum,St. Johannis-Harvestehude Church,4939,1124
+Hamburg Art Gallery,St Mary's Cathedral,760,168
+Hamburg Art Gallery,St. Johannis-Harvestehude Church,2798,697
+Gilde Bowling Alley,St Mary's Cathedral,9141,1786
+Gilde Bowling Alley,St. Johannis-Harvestehude Church,7709,1655
+U.S. FUN BOWLING,St Mary's Cathedral,3142,690
+U.S. FUN BOWLING,St. Johannis-Harvestehude Church,5523,1102
+Tower Tag Arena Hamburg,St Mary's Cathedral,2955,691
+Tower Tag Arena Hamburg,St. Johannis-Harvestehude Church,3961,860
+Lasertag Hamburg St. Pauli,St Mary's Cathedral,4310,871
+Lasertag Hamburg St. Pauli,St. Johannis-Harvestehude Church,4019,962
+Minigolf course Planten un Blomen,St Mary's Cathedral,3528,912
+Minigolf course Planten un Blomen,St. Johannis-Harvestehude Church,3249,935
+City Hall,St Mary's Cathedral,2098,412
+City Hall,St. Johannis-Harvestehude Church,2749,576
+Panoptikum,St Mary's Cathedral,4161,842
+Panoptikum,St. Johannis-Harvestehude Church,3870,933
+St. Pauli Landing Bridges & Old Elbe Tunnel,St Mary's Cathedral,4510,963
+St. Pauli Landing Bridges & Old Elbe Tunnel,St. Johannis-Harvestehude Church,4215,988
+Alster fountain,St Mary's Cathedral,1344,316
+Alster fountain,St. Johannis-Harvestehude Church,2825,595
+Speicherstadt,St Mary's Cathedral,2642,613
+Speicherstadt,St. Johannis-Harvestehude Church,3709,893
+Altona Town Hall,St Mary's Cathedral,6229,1220
+Altona Town Hall,St. Johannis-Harvestehude Church,5374,1147
+Fish auction hall,St Mary's Cathedral,5466,1167
+Fish auction hall,St. Johannis-Harvestehude Church,5468,1252
+Volksparkstadion & HSV-Museum,St. Gertrud Church,10891,2148
+Volksparkstadion & HSV-Museum,Elbphilharmonie,9539,1832
+Millerntor-Stadion,St. Gertrud Church,4992,1093
+Millerntor-Stadion,Elbphilharmonie,2859,605
+St. Michaelis Church,St. Gertrud Church,4823,998
+St. Michaelis Church,Elbphilharmonie,1106,252
+St. Jacobi Church,St. Gertrud Church,3323,674
+St. Jacobi Church,Elbphilharmonie,1904,425
+St. Peter’s Church,St. Gertrud Church,3333,675
+St. Peter’s Church,Elbphilharmonie,1785,413
+St. Katharinen Church,St. Gertrud Church,4113,878
+St. Katharinen Church,Elbphilharmonie,1086,222
+St. Nikolai Church,St. Gertrud Church,4541,930
+St. Nikolai Church,Elbphilharmonie,1062,307
+St. Ansgar and Bernhard Church ,St. Gertrud Church,4342,871
+St. Ansgar and Bernhard Church ,Elbphilharmonie,1334,308
+St Mary's Cathedral,St. Gertrud Church,1826,404
+St Mary's Cathedral,Elbphilharmonie,3449,723
+St. Johannis-Harvestehude Church,St. Gertrud Church,4332,893
+St. Johannis-Harvestehude Church,Elbphilharmonie,4308,906
+St. Gertrud Church,Elbphilharmonie,4918,1145
+Elbphilharmonie,St. Gertrud Church,4799,1092
+Stage Operettenhaus,St. Gertrud Church,5530,1243
+Stage Operettenhaus,Elbphilharmonie,1900,382
+Miniature Wonderland,St. Gertrud Church,4418,1053
+Miniature Wonderland,Elbphilharmonie,604,206
+Olivia Jones Bar,St. Gertrud Church,6293,1363
+Olivia Jones Bar,Elbphilharmonie,2853,553
+Citypark,St. Gertrud Church,4984,1055
+Citypark,Elbphilharmonie,8314,1728
+Planten un Blomen,St. Gertrud Church,3257,693
+Planten un Blomen,Elbphilharmonie,2699,602
+Altona Volkspark,St. Gertrud Church,11702,2267
+Altona Volkspark,Elbphilharmonie,8719,1669
+Cherry avenue in the main cemetery Altona,St. Gertrud Church,11930,2335
+Cherry avenue in the main cemetery Altona,Elbphilharmonie,10182,1947
+Citypark,St. Gertrud Church,3425,832
+Citypark,Elbphilharmonie,7785,1642
+Alsterpark,St. Gertrud Church,4221,981
+Alsterpark,Elbphilharmonie,4382,1065
+Schanzenpark,St. Gertrud Church,4593,869
+Schanzenpark,Elbphilharmonie,4019,811
+International Maritime Museum,St. Gertrud Church,3835,869
+International Maritime Museum,Elbphilharmonie,1697,377
+Speicherstadtmuseum,St. Gertrud Church,4576,1105
+Speicherstadtmuseum,Elbphilharmonie,305,110
+Altona Museum,St. Gertrud Church,8033,1509
+Altona Museum,Elbphilharmonie,4239,790
+Museum of Hamburg History,St. Gertrud Church,4698,947
+Museum of Hamburg History,Elbphilharmonie,1717,377
+Museum of Illusions,St. Gertrud Church,2733,555
+Museum of Illusions,Elbphilharmonie,2687,557
+U-Boat Museum,St. Gertrud Church,6550,1395
+U-Boat Museum,Elbphilharmonie,2306,444
+Hamburg Art Gallery,St. Gertrud Church,2523,549
+Hamburg Art Gallery,Elbphilharmonie,2688,577
+Gilde Bowling Alley,St. Gertrud Church,10433,2050
+Gilde Bowling Alley,Elbphilharmonie,7299,1309
+U.S. FUN BOWLING,St. Gertrud Church,1536,318
+U.S. FUN BOWLING,Elbphilharmonie,6013,1326
+Tower Tag Arena Hamburg,St. Gertrud Church,4581,1059
+Tower Tag Arena Hamburg,Elbphilharmonie,568,166
+Lasertag Hamburg St. Pauli,St. Gertrud Church,5721,1279
+Lasertag Hamburg St. Pauli,Elbphilharmonie,2078,417
+Minigolf course Planten un Blomen,St. Gertrud Church,4747,1210
+Minigolf course Planten un Blomen,Elbphilharmonie,2144,590
+City Hall,St. Gertrud Church,3793,793
+City Hall,Elbphilharmonie,1641,382
+Panoptikum,St. Gertrud Church,5571,1250
+Panoptikum,Elbphilharmonie,1942,390
+St. Pauli Landing Bridges & Old Elbe Tunnel,St. Gertrud Church,5826,1259
+St. Pauli Landing Bridges & Old Elbe Tunnel,Elbphilharmonie,1582,308
+Alster fountain,St. Gertrud Church,3863,811
+Alster fountain,Elbphilharmonie,2229,521
+Speicherstadt,St. Gertrud Church,4267,981
+Speicherstadt,Elbphilharmonie,1747,359
+Altona Town Hall,St. Gertrud Church,8098,1542
+Altona Town Hall,Elbphilharmonie,4009,741
+Fish auction hall,St. Gertrud Church,6782,1463
+Fish auction hall,Elbphilharmonie,2538,512
+Volksparkstadion & HSV-Museum,Stage Operettenhaus,8058,1576
+Volksparkstadion & HSV-Museum,Miniature Wonderland,9391,1820
+Millerntor-Stadion,Stage Operettenhaus,1379,349
+Millerntor-Stadion,Miniature Wonderland,2795,574
+St. Michaelis Church,Stage Operettenhaus,1041,178
+St. Michaelis Church,Miniature Wonderland,1260,277
+St. Jacobi Church,Stage Operettenhaus,2814,570
+St. Jacobi Church,Miniature Wonderland,1318,297
+St. Peter’s Church,Stage Operettenhaus,2695,558
+St. Peter’s Church,Miniature Wonderland,1202,255
+St. Katharinen Church,Stage Operettenhaus,2437,494
+St. Katharinen Church,Miniature Wonderland,505,127
+St. Nikolai Church,Stage Operettenhaus,1998,418
+St. Nikolai Church,Miniature Wonderland,528,154
+St. Ansgar and Bernhard Church ,Stage Operettenhaus,1473,339
+St. Ansgar and Bernhard Church ,Miniature Wonderland,983,247
+St Mary's Cathedral,Stage Operettenhaus,4327,844
+St Mary's Cathedral,Miniature Wonderland,2848,551
+St. Johannis-Harvestehude Church,Stage Operettenhaus,3952,922
+St. Johannis-Harvestehude Church,Miniature Wonderland,3774,753
+St. Gertrud Church,Stage Operettenhaus,5467,1195
+St. Gertrud Church,Miniature Wonderland,4272,959
+Elbphilharmonie,Stage Operettenhaus,1952,496
+Elbphilharmonie,Miniature Wonderland,526,175
+Stage Operettenhaus,Miniature Wonderland,2043,434
+Miniature Wonderland,Stage Operettenhaus,2300,525
+Olivia Jones Bar,Stage Operettenhaus,925,195
+Olivia Jones Bar,Miniature Wonderland,2785,555
+Citypark,Stage Operettenhaus,7341,1624
+Citypark,Miniature Wonderland,7287,1526
+Planten un Blomen,Stage Operettenhaus,1746,460
+Planten un Blomen,Miniature Wonderland,2165,449
+Altona Volkspark,Stage Operettenhaus,7238,1413
+Altona Volkspark,Miniature Wonderland,8571,1657
+Cherry avenue in the main cemetery Altona,Stage Operettenhaus,8701,1691
+Cherry avenue in the main cemetery Altona,Miniature Wonderland,10034,1935
+Citypark,Stage Operettenhaus,7021,1568
+Citypark,Miniature Wonderland,7139,1456
+Alsterpark,Stage Operettenhaus,5014,1155
+Alsterpark,Miniature Wonderland,3848,912
+Schanzenpark,Stage Operettenhaus,2539,555
+Schanzenpark,Miniature Wonderland,3315,733
+International Maritime Museum,Stage Operettenhaus,3007,724
+International Maritime Museum,Miniature Wonderland,1184,306
+Speicherstadtmuseum,Stage Operettenhaus,1993,430
+Speicherstadtmuseum,Miniature Wonderland,274,53
+Altona Museum,Stage Operettenhaus,2403,471
+Altona Museum,Miniature Wonderland,4384,869
+Museum of Hamburg History,Stage Operettenhaus,805,215
+Museum of Hamburg History,Miniature Wonderland,1673,314
+Museum of Illusions,Stage Operettenhaus,3279,673
+Museum of Illusions,Miniature Wonderland,2102,429
+U-Boat Museum,Stage Operettenhaus,2129,431
+U-Boat Museum,Miniature Wonderland,2586,549
+Hamburg Art Gallery,Stage Operettenhaus,3565,698
+Hamburg Art Gallery,Miniature Wonderland,2086,405
+Gilde Bowling Alley,Stage Operettenhaus,5463,989
+Gilde Bowling Alley,Miniature Wonderland,7444,1387
+U.S. FUN BOWLING,Stage Operettenhaus,6562,1376
+U.S. FUN BOWLING,Miniature Wonderland,5367,1140
+Tower Tag Arena Hamburg,Stage Operettenhaus,2255,487
+Tower Tag Arena Hamburg,Miniature Wonderland,536,109
+Lasertag Hamburg St. Pauli,Stage Operettenhaus,190,35
+Lasertag Hamburg St. Pauli,Miniature Wonderland,2234,470
+Minigolf course Planten un Blomen,Stage Operettenhaus,823,376
+Minigolf course Planten un Blomen,Miniature Wonderland,1924,562
+City Hall,Stage Operettenhaus,2290,478
+City Hall,Miniature Wonderland,1107,229
+Panoptikum,Stage Operettenhaus,42,7
+Panoptikum,Miniature Wonderland,2084,441
+St. Pauli Landing Bridges & Old Elbe Tunnel,Stage Operettenhaus,1405,295
+St. Pauli Landing Bridges & Old Elbe Tunnel,Miniature Wonderland,1862,414
+Alster fountain,Stage Operettenhaus,2778,571
+Alster fountain,Miniature Wonderland,1583,335
+Speicherstadt,Stage Operettenhaus,3056,706
+Speicherstadt,Miniature Wonderland,1370,321
+Altona Town Hall,Stage Operettenhaus,2172,421
+Altona Town Hall,Miniature Wonderland,4153,819
+Fish auction hall,Stage Operettenhaus,1449,374
+Fish auction hall,Miniature Wonderland,2818,618
+Volksparkstadion & HSV-Museum,Olivia Jones Bar,8067,1537
+Volksparkstadion & HSV-Museum,Citypark,8410,1823
+Millerntor-Stadion,Olivia Jones Bar,1638,317
+Millerntor-Stadion,Citypark,6187,1428
+St. Michaelis Church,Olivia Jones Bar,1571,317
+St. Michaelis Church,Citypark,6681,1444
+St. Jacobi Church,Olivia Jones Bar,3146,643
+St. Jacobi Church,Citypark,6455,1359
+St. Peter’s Church,Olivia Jones Bar,3027,632
+St. Peter’s Church,Citypark,6171,1313
+St. Katharinen Church,Olivia Jones Bar,2769,568
+St. Katharinen Church,Citypark,6880,1531
+St. Nikolai Church,Olivia Jones Bar,2330,492
+St. Nikolai Church,Citypark,6853,1434
+St. Ansgar and Bernhard Church ,Olivia Jones Bar,1805,412
+St. Ansgar and Bernhard Church ,Citypark,6657,1380
+St Mary's Cathedral,Olivia Jones Bar,4659,918
+St Mary's Cathedral,Citypark,5079,1136
+St. Johannis-Harvestehude Church,Olivia Jones Bar,4413,968
+St. Johannis-Harvestehude Church,Citypark,3566,807
+St. Gertrud Church,Olivia Jones Bar,5799,1268
+St. Gertrud Church,Citypark,5286,1169
+Elbphilharmonie,Olivia Jones Bar,2929,693
+Elbphilharmonie,Citypark,7688,1701
+Stage Operettenhaus,Olivia Jones Bar,826,155
+Stage Operettenhaus,Citypark,6725,1578
+Miniature Wonderland,Olivia Jones Bar,2632,599
+Miniature Wonderland,Citypark,7154,1575
+Olivia Jones Bar,Citypark,7054,1534
+Citypark,Olivia Jones Bar,7802,1670
+Planten un Blomen,Olivia Jones Bar,2207,505
+Planten un Blomen,Citypark,4815,1073
+Altona Volkspark,Olivia Jones Bar,7246,1374
+Altona Volkspark,Citypark,9221,1943
+Cherry avenue in the main cemetery Altona,Olivia Jones Bar,8710,1652
+Cherry avenue in the main cemetery Altona,Citypark,9449,2011
+Citypark,Olivia Jones Bar,7482,1613
+Citypark,Citypark,66,15
+Alsterpark,Olivia Jones Bar,5346,1229
+Alsterpark,Citypark,3567,973
+Schanzenpark,Olivia Jones Bar,3000,601
+Schanzenpark,Citypark,4932,1157
+International Maritime Museum,Olivia Jones Bar,3339,798
+International Maritime Museum,Citypark,7244,1633
+Speicherstadtmuseum,Olivia Jones Bar,2969,627
+Speicherstadtmuseum,Citypark,7833,1653
+Altona Museum,Olivia Jones Bar,2024,427
+Altona Museum,Citypark,8087,1707
+Museum of Hamburg History,Olivia Jones Bar,1265,252
+Museum of Hamburg History,Citypark,6455,1383
+Museum of Illusions,Olivia Jones Bar,3611,747
+Museum of Illusions,Citypark,5957,1302
+U-Boat Museum,Olivia Jones Bar,1581,354
+U-Boat Museum,Citypark,8404,1875
+Hamburg Art Gallery,Olivia Jones Bar,3897,772
+Hamburg Art Gallery,Citypark,5747,1296
+Gilde Bowling Alley,Olivia Jones Bar,5084,946
+Gilde Bowling Alley,Citypark,10582,2319
+U.S. FUN BOWLING,Olivia Jones Bar,6894,1449
+U.S. FUN BOWLING,Citypark,4130,937
+Tower Tag Arena Hamburg,Olivia Jones Bar,2795,605
+Tower Tag Arena Hamburg,Citypark,7317,1581
+Lasertag Hamburg St. Pauli,Olivia Jones Bar,635,127
+Lasertag Hamburg St. Pauli,Citypark,6916,1614
+Minigolf course Planten un Blomen,Olivia Jones Bar,1232,426
+Minigolf course Planten un Blomen,Citypark,6605,1656
+City Hall,Olivia Jones Bar,2622,552
+City Hall,Citypark,6105,1297
+Panoptikum,Olivia Jones Bar,784,148
+Panoptikum,Citypark,6766,1585
+St. Pauli Landing Bridges & Old Elbe Tunnel,Olivia Jones Bar,1558,341
+St. Pauli Landing Bridges & Old Elbe Tunnel,Citypark,7380,1737
+Alster fountain,Olivia Jones Bar,3110,645
+Alster fountain,Citypark,6181,1316
+Speicherstadt,Olivia Jones Bar,3388,779
+Speicherstadt,Citypark,7065,1614
+Altona Town Hall,Olivia Jones Bar,1793,377
+Altona Town Hall,Citypark,8151,1740
+Fish auction hall,Olivia Jones Bar,1070,330
+Fish auction hall,Citypark,8245,1845
+Volksparkstadion & HSV-Museum,Planten un Blomen,7678,1533
+Volksparkstadion & HSV-Museum,Altona Volkspark,1290,284
+Millerntor-Stadion,Planten un Blomen,1102,293
+Millerntor-Stadion,Altona Volkspark,6255,1270
+St. Michaelis Church,Planten un Blomen,1687,356
+St. Michaelis Church,Altona Volkspark,7512,1442
+St. Jacobi Church,Planten un Blomen,1521,293
+St. Jacobi Church,Altona Volkspark,9087,1768
+St. Peter’s Church,Planten un Blomen,1237,247
+St. Peter’s Church,Altona Volkspark,8967,1756
+St. Katharinen Church,Planten un Blomen,1945,465
+St. Katharinen Church,Altona Volkspark,8710,1692
+St. Nikolai Church,Planten un Blomen,1919,368
+St. Nikolai Church,Altona Volkspark,8271,1616
+St. Ansgar and Bernhard Church ,Planten un Blomen,1723,314
+St. Ansgar and Bernhard Church ,Altona Volkspark,7746,1537
+St Mary's Cathedral,Planten un Blomen,2205,528
+St Mary's Cathedral,Altona Volkspark,10599,2042
+St. Johannis-Harvestehude Church,Planten un Blomen,1315,265
+St. Johannis-Harvestehude Church,Altona Volkspark,8408,1754
+St. Gertrud Church,Planten un Blomen,3295,771
+St. Gertrud Church,Altona Volkspark,11176,2285
+Elbphilharmonie,Planten un Blomen,2754,635
+Elbphilharmonie,Altona Volkspark,8870,1817
+Stage Operettenhaus,Planten un Blomen,1640,443
+Stage Operettenhaus,Altona Volkspark,7174,1398
+Miniature Wonderland,Planten un Blomen,2220,508
+Miniature Wonderland,Altona Volkspark,8573,1723
+Olivia Jones Bar,Planten un Blomen,2403,563
+Olivia Jones Bar,Altona Volkspark,6201,1246
+Citypark,Planten un Blomen,4842,1025
+Citypark,Altona Volkspark,9227,1984
+Planten un Blomen,Altona Volkspark,7348,1458
+Altona Volkspark,Planten un Blomen,7362,1521
+Cherry avenue in the main cemetery Altona,Planten un Blomen,8717,1721
+Cherry avenue in the main cemetery Altona,Altona Volkspark,1052,249
+Citypark,Planten un Blomen,4522,968
+Citypark,Altona Volkspark,9156,1931
+Alsterpark,Planten un Blomen,2102,566
+Alsterpark,Altona Volkspark,8783,1991
+Schanzenpark,Planten un Blomen,1380,254
+Schanzenpark,Altona Volkspark,7123,1382
+International Maritime Museum,Planten un Blomen,2081,566
+International Maritime Museum,Altona Volkspark,9279,1922
+Speicherstadtmuseum,Planten un Blomen,2899,586
+Speicherstadtmuseum,Altona Volkspark,8910,1752
+Altona Museum,Planten un Blomen,3981,878
+Altona Museum,Altona Volkspark,5033,907
+Museum of Hamburg History,Planten un Blomen,1562,305
+Museum of Hamburg History,Altona Volkspark,7206,1376
+Museum of Illusions,Planten un Blomen,1748,351
+Museum of Illusions,Altona Volkspark,9551,1871
+U-Boat Museum,Planten un Blomen,3019,738
+U-Boat Museum,Altona Volkspark,7351,1535
+Hamburg Art Gallery,Planten un Blomen,1151,324
+Hamburg Art Gallery,Altona Volkspark,9837,1896
+Gilde Bowling Alley,Planten un Blomen,6699,1415
+Gilde Bowling Alley,Altona Volkspark,2813,593
+U.S. FUN BOWLING,Planten un Blomen,4391,951
+U.S. FUN BOWLING,Altona Volkspark,12272,2466
+Tower Tag Arena Hamburg,Planten un Blomen,2383,515
+Tower Tag Arena Hamburg,Altona Volkspark,8736,1730
+Lasertag Hamburg St. Pauli,Planten un Blomen,1831,479
+Lasertag Hamburg St. Pauli,Altona Volkspark,7364,1434
+Minigolf course Planten un Blomen,Planten un Blomen,1153,521
+Minigolf course Planten un Blomen,Altona Volkspark,7172,1550
+City Hall,Planten un Blomen,1171,230
+City Hall,Altona Volkspark,8563,1676
+Panoptikum,Planten un Blomen,1682,450
+Panoptikum,Altona Volkspark,7215,1405
+St. Pauli Landing Bridges & Old Elbe Tunnel,Planten un Blomen,2295,602
+St. Pauli Landing Bridges & Old Elbe Tunnel,Altona Volkspark,7790,1566
+Alster fountain,Planten un Blomen,1247,249
+Alster fountain,Altona Volkspark,9051,1769
+Speicherstadt,Planten un Blomen,2131,548
+Speicherstadt,Altona Volkspark,9329,1904
+Altona Town Hall,Planten un Blomen,3750,828
+Altona Town Hall,Altona Volkspark,5218,964
+Fish auction hall,Planten un Blomen,3027,780
+Fish auction hall,Altona Volkspark,7192,1506
+Volksparkstadion & HSV-Museum,Cherry avenue in the main cemetery Altona,648,122
+Volksparkstadion & HSV-Museum,Citypark,8150,1773
+Millerntor-Stadion,Cherry avenue in the main cemetery Altona,7256,1437
+Millerntor-Stadion,Citypark,5794,1329
+St. Michaelis Church,Cherry avenue in the main cemetery Altona,8513,1608
+St. Michaelis Church,Citypark,6288,1345
+St. Jacobi Church,Cherry avenue in the main cemetery Altona,10088,1934
+St. Jacobi Church,Citypark,6062,1260
+St. Peter’s Church,Cherry avenue in the main cemetery Altona,9968,1923
+St. Peter’s Church,Citypark,5778,1214
+St. Katharinen Church,Cherry avenue in the main cemetery Altona,9711,1859
+St. Katharinen Church,Citypark,6486,1433
+St. Nikolai Church,Cherry avenue in the main cemetery Altona,9272,1783
+St. Nikolai Church,Citypark,6460,1336
+St. Ansgar and Bernhard Church ,Cherry avenue in the main cemetery Altona,8747,1703
+St. Ansgar and Bernhard Church ,Citypark,6264,1282
+St Mary's Cathedral,Cherry avenue in the main cemetery Altona,11600,2209
+St Mary's Cathedral,Citypark,4686,1038
+St. Johannis-Harvestehude Church,Cherry avenue in the main cemetery Altona,9408,1920
+St. Johannis-Harvestehude Church,Citypark,3173,709
+St. Gertrud Church,Cherry avenue in the main cemetery Altona,12177,2451
+St. Gertrud Church,Citypark,3886,854
+Elbphilharmonie,Cherry avenue in the main cemetery Altona,9871,1984
+Elbphilharmonie,Citypark,7295,1603
+Stage Operettenhaus,Cherry avenue in the main cemetery Altona,8174,1564
+Stage Operettenhaus,Citypark,6332,1479
+Miniature Wonderland,Cherry avenue in the main cemetery Altona,9573,1890
+Miniature Wonderland,Citypark,6761,1476
+Olivia Jones Bar,Cherry avenue in the main cemetery Altona,7202,1412
+Olivia Jones Bar,Citypark,6660,1435
+Citypark,Cherry avenue in the main cemetery Altona,9455,1992
+Citypark,Citypark,66,8
+Planten un Blomen,Cherry avenue in the main cemetery Altona,8349,1624
+Planten un Blomen,Citypark,4422,975
+Altona Volkspark,Cherry avenue in the main cemetery Altona,1052,199
+Altona Volkspark,Citypark,8961,1893
+Cherry avenue in the main cemetery Altona,Citypark,9189,1961
+Citypark,Cherry avenue in the main cemetery Altona,9383,1939
+Alsterpark,Cherry avenue in the main cemetery Altona,9784,2157
+Alsterpark,Citypark,3174,874
+Schanzenpark,Cherry avenue in the main cemetery Altona,8124,1548
+Schanzenpark,Citypark,4539,1058
+International Maritime Museum,Cherry avenue in the main cemetery Altona,10280,2088
+International Maritime Museum,Citypark,6851,1534
+Speicherstadtmuseum,Cherry avenue in the main cemetery Altona,9911,1918
+Speicherstadtmuseum,Citypark,7440,1554
+Altona Museum,Cherry avenue in the main cemetery Altona,6034,1073
+Altona Museum,Citypark,7693,1608
+Museum of Hamburg History,Cherry avenue in the main cemetery Altona,8207,1543
+Museum of Hamburg History,Citypark,6061,1285
+Museum of Illusions,Cherry avenue in the main cemetery Altona,10552,2038
+Museum of Illusions,Citypark,5564,1204
+U-Boat Museum,Cherry avenue in the main cemetery Altona,8352,1702
+U-Boat Museum,Citypark,8010,1776
+Hamburg Art Gallery,Cherry avenue in the main cemetery Altona,10838,2063
+Hamburg Art Gallery,Citypark,5354,1198
+Gilde Bowling Alley,Cherry avenue in the main cemetery Altona,3814,778
+Gilde Bowling Alley,Citypark,10189,2221
+U.S. FUN BOWLING,Cherry avenue in the main cemetery Altona,13272,2632
+U.S. FUN BOWLING,Citypark,2730,622
+Tower Tag Arena Hamburg,Cherry avenue in the main cemetery Altona,9737,1896
+Tower Tag Arena Hamburg,Citypark,6924,1482
+Lasertag Hamburg St. Pauli,Cherry avenue in the main cemetery Altona,8365,1601
+Lasertag Hamburg St. Pauli,Citypark,6523,1516
+Minigolf course Planten un Blomen,Cherry avenue in the main cemetery Altona,8173,1717
+Minigolf course Planten un Blomen,Citypark,6212,1557
+City Hall,Cherry avenue in the main cemetery Altona,9563,1843
+City Hall,Citypark,5712,1198
+Panoptikum,Cherry avenue in the main cemetery Altona,8216,1572
+Panoptikum,Citypark,6373,1487
+St. Pauli Landing Bridges & Old Elbe Tunnel,Cherry avenue in the main cemetery Altona,8791,1733
+St. Pauli Landing Bridges & Old Elbe Tunnel,Citypark,6986,1639
+Alster fountain,Cherry avenue in the main cemetery Altona,10052,1936
+Alster fountain,Citypark,5788,1217
+Speicherstadt,Cherry avenue in the main cemetery Altona,10330,2070
+Speicherstadt,Citypark,6672,1515
+Altona Town Hall,Cherry avenue in the main cemetery Altona,6219,1130
+Altona Town Hall,Citypark,7758,1642
+Fish auction hall,Cherry avenue in the main cemetery Altona,8193,1673
+Fish auction hall,Citypark,7852,1747
+Volksparkstadion & HSV-Museum,Alsterpark,8233,1858
+Volksparkstadion & HSV-Museum,Schanzenpark,6298,1279
+Millerntor-Stadion,Alsterpark,3672,917
+Millerntor-Stadion,Schanzenpark,1726,372
+St. Michaelis Church,Alsterpark,3707,865
+St. Michaelis Church,Schanzenpark,2960,593
+St. Jacobi Church,Alsterpark,3481,780
+St. Jacobi Church,Schanzenpark,3329,695
+St. Peter’s Church,Alsterpark,3197,734
+St. Peter’s Church,Schanzenpark,3044,649
+St. Katharinen Church,Alsterpark,3906,952
+St. Katharinen Church,Schanzenpark,4158,844
+St. Nikolai Church,Alsterpark,3879,855
+St. Nikolai Church,Schanzenpark,3719,768
+St. Ansgar and Bernhard Church ,Alsterpark,3683,801
+St. Ansgar and Bernhard Church ,Schanzenpark,3194,688
+St Mary's Cathedral,Alsterpark,3201,744
+St Mary's Cathedral,Schanzenpark,3561,819
+St. Johannis-Harvestehude Church,Alsterpark,922,301
+St. Johannis-Harvestehude Church,Schanzenpark,2138,522
+St. Gertrud Church,Alsterpark,4291,987
+St. Gertrud Church,Schanzenpark,4629,1026
+Elbphilharmonie,Alsterpark,4715,1122
+Elbphilharmonie,Schanzenpark,4318,969
+Stage Operettenhaus,Alsterpark,4210,1068
+Stage Operettenhaus,Schanzenpark,2622,549
+Miniature Wonderland,Alsterpark,4180,995
+Miniature Wonderland,Schanzenpark,4021,875
+Olivia Jones Bar,Alsterpark,4973,1188
+Olivia Jones Bar,Schanzenpark,2407,467
+Citypark,Alsterpark,3728,908
+Citypark,Schanzenpark,5114,1129
+Planten un Blomen,Alsterpark,1964,517
+Planten un Blomen,Schanzenpark,1219,278
+Altona Volkspark,Alsterpark,9045,1978
+Altona Volkspark,Schanzenpark,7109,1399
+Cherry avenue in the main cemetery Altona,Alsterpark,9273,2046
+Cherry avenue in the main cemetery Altona,Schanzenpark,7337,1467
+Citypark,Alsterpark,3408,851
+Citypark,Schanzenpark,4794,1072
+Alsterpark,Schanzenpark,2514,759
+Schanzenpark,Alsterpark,3261,726
+International Maritime Museum,Alsterpark,4262,1108
+International Maritime Museum,Schanzenpark,4728,1074
+Speicherstadtmuseum,Alsterpark,4860,1074
+Speicherstadtmuseum,Schanzenpark,4358,903
+Altona Museum,Alsterpark,5685,1305
+Altona Museum,Schanzenpark,3440,640
+Museum of Hamburg History,Alsterpark,3481,804
+Museum of Hamburg History,Schanzenpark,2654,528
+Museum of Illusions,Alsterpark,2975,777
+Museum of Illusions,Schanzenpark,3555,753
+U-Boat Museum,Alsterpark,5321,1266
+U-Boat Museum,Schanzenpark,3757,808
+Hamburg Art Gallery,Alsterpark,2265,740
+Hamburg Art Gallery,Schanzenpark,2959,726
+Gilde Bowling Alley,Alsterpark,8085,1847
+Gilde Bowling Alley,Schanzenpark,5840,1182
+U.S. FUN BOWLING,Alsterpark,5387,1168
+U.S. FUN BOWLING,Schanzenpark,5724,1206
+Tower Tag Arena Hamburg,Alsterpark,4343,1002
+Tower Tag Arena Hamburg,Schanzenpark,4184,881
+Lasertag Hamburg St. Pauli,Alsterpark,4401,1104
+Lasertag Hamburg St. Pauli,Schanzenpark,2813,586
+Minigolf course Planten un Blomen,Alsterpark,3631,1077
+Minigolf course Planten un Blomen,Schanzenpark,2621,702
+City Hall,Alsterpark,3131,717
+City Hall,Schanzenpark,2979,632
+Panoptikum,Alsterpark,4252,1075
+Panoptikum,Schanzenpark,2664,557
+St. Pauli Landing Bridges & Old Elbe Tunnel,Alsterpark,4597,1130
+St. Pauli Landing Bridges & Old Elbe Tunnel,Schanzenpark,3239,718
+Alster fountain,Alsterpark,3207,736
+Alster fountain,Schanzenpark,3054,651
+Speicherstadt,Alsterpark,4091,1035
+Speicherstadt,Schanzenpark,4777,1055
+Altona Town Hall,Alsterpark,5750,1339
+Altona Town Hall,Schanzenpark,3505,673
+Fish auction hall,Alsterpark,5597,1405
+Fish auction hall,Schanzenpark,3598,779
+Volksparkstadion & HSV-Museum,International Maritime Museum,10116,1985
+Volksparkstadion & HSV-Museum,Speicherstadtmuseum,9620,1863
+Millerntor-Stadion,International Maritime Museum,3520,739
+Millerntor-Stadion,Speicherstadtmuseum,3024,617
+St. Michaelis Church,International Maritime Museum,1984,441
+St. Michaelis Church,Speicherstadtmuseum,1489,319
+St. Jacobi Church,International Maritime Museum,1127,330
+St. Jacobi Church,Speicherstadtmuseum,1547,339
+St. Peter’s Church,International Maritime Museum,1007,318
+St. Peter’s Church,Speicherstadtmuseum,1431,297
+St. Katharinen Church,International Maritime Museum,670,220
+St. Katharinen Church,Speicherstadtmuseum,883,193
+St. Nikolai Church,International Maritime Museum,1317,333
+St. Nikolai Church,Speicherstadtmuseum,757,197
+St. Ansgar and Bernhard Church ,International Maritime Museum,1707,411
+St. Ansgar and Bernhard Church ,Speicherstadtmuseum,1212,289
+St Mary's Cathedral,International Maritime Museum,2274,495
+St Mary's Cathedral,Speicherstadtmuseum,3077,594
+St. Johannis-Harvestehude Church,International Maritime Museum,4186,899
+St. Johannis-Harvestehude Church,Speicherstadtmuseum,4003,796
+St. Gertrud Church,International Maritime Museum,4110,903
+St. Gertrud Church,Speicherstadtmuseum,4501,1001
+Elbphilharmonie,International Maritime Museum,1191,288
+Elbphilharmonie,Speicherstadtmuseum,305,139
+Stage Operettenhaus,International Maritime Museum,2767,598
+Stage Operettenhaus,Speicherstadtmuseum,2272,476
+Miniature Wonderland,International Maritime Museum,877,282
+Miniature Wonderland,Speicherstadtmuseum,299,96
+Olivia Jones Bar,International Maritime Museum,3509,720
+Olivia Jones Bar,Speicherstadtmuseum,3014,598
+Citypark,International Maritime Museum,7473,1532
+Citypark,Speicherstadtmuseum,7516,1569
+Planten un Blomen,International Maritime Museum,2576,596
+Planten un Blomen,Speicherstadtmuseum,2394,492
+Altona Volkspark,International Maritime Museum,9295,1821
+Altona Volkspark,Speicherstadtmuseum,8800,1700
+Cherry avenue in the main cemetery Altona,International Maritime Museum,10759,2100
+Cherry avenue in the main cemetery Altona,Speicherstadtmuseum,10263,1978
+Citypark,International Maritime Museum,6944,1446
+Citypark,Speicherstadtmuseum,7368,1499
+Alsterpark,International Maritime Museum,4058,1028
+Alsterpark,Speicherstadtmuseum,4077,955
+Schanzenpark,International Maritime Museum,4354,901
+Schanzenpark,Speicherstadtmuseum,3544,776
+International Maritime Museum,Speicherstadtmuseum,910,253
+Speicherstadtmuseum,International Maritime Museum,968,301
+Altona Museum,International Maritime Museum,5108,1033
+Altona Museum,Speicherstadtmuseum,4613,911
+Museum of Hamburg History,International Maritime Museum,2397,478
+Museum of Hamburg History,Speicherstadtmuseum,1902,357
+Museum of Illusions,International Maritime Museum,1580,383
+Museum of Illusions,Speicherstadtmuseum,2331,472
+U-Boat Museum,International Maritime Museum,3251,663
+U-Boat Museum,Speicherstadtmuseum,2365,514
+Hamburg Art Gallery,International Maritime Museum,1513,348
+Hamburg Art Gallery,Speicherstadtmuseum,2315,448
+Gilde Bowling Alley,International Maritime Museum,8168,1551
+Gilde Bowling Alley,Speicherstadtmuseum,7673,1430
+U.S. FUN BOWLING,International Maritime Museum,5375,1135
+U.S. FUN BOWLING,Speicherstadtmuseum,5596,1182
+Tower Tag Arena Hamburg,International Maritime Museum,1283,315
+Tower Tag Arena Hamburg,Speicherstadtmuseum,262,56
+Lasertag Hamburg St. Pauli,International Maritime Museum,2958,634
+Lasertag Hamburg St. Pauli,Speicherstadtmuseum,2463,513
+Minigolf course Planten un Blomen,International Maritime Museum,2649,727
+Minigolf course Planten un Blomen,Speicherstadtmuseum,2153,605
+City Hall,International Maritime Museum,1824,392
+City Hall,Speicherstadtmuseum,1336,272
+Panoptikum,International Maritime Museum,2809,605
+Panoptikum,Speicherstadtmuseum,2313,484
+St. Pauli Landing Bridges & Old Elbe Tunnel,International Maritime Museum,2527,527
+St. Pauli Landing Bridges & Old Elbe Tunnel,Speicherstadtmuseum,1641,378
+Alster fountain,International Maritime Museum,1452,427
+Alster fountain,Speicherstadtmuseum,1812,378
+Speicherstadt,International Maritime Museum,629,190
+Speicherstadt,Speicherstadtmuseum,1096,268
+Altona Town Hall,International Maritime Museum,4877,983
+Altona Town Hall,Speicherstadtmuseum,4382,861
+Fish auction hall,International Maritime Museum,3483,732
+Fish auction hall,Speicherstadtmuseum,2597,582
+Volksparkstadion & HSV-Museum,Altona Museum,6034,1185
+Volksparkstadion & HSV-Museum,Museum of Hamburg History,8068,1628
+Millerntor-Stadion,Altona Museum,3459,719
+Millerntor-Stadion,Museum of Hamburg History,1377,344
+St. Michaelis Church,Altona Museum,3465,710
+St. Michaelis Church,Museum of Hamburg History,539,109
+St. Jacobi Church,Altona Museum,5040,1036
+St. Jacobi Church,Museum of Hamburg History,2114,436
+St. Peter’s Church,Altona Museum,4921,1024
+St. Peter’s Church,Museum of Hamburg History,1995,424
+St. Katharinen Church,Altona Museum,4663,960
+St. Katharinen Church,Museum of Hamburg History,1737,360
+St. Nikolai Church,Altona Museum,4224,885
+St. Nikolai Church,Museum of Hamburg History,1298,284
+St. Ansgar and Bernhard Church ,Altona Museum,3699,805
+St. Ansgar and Bernhard Church ,Museum of Hamburg History,773,204
+St Mary's Cathedral,Altona Museum,6553,1311
+St Mary's Cathedral,Museum of Hamburg History,3627,710
+St. Johannis-Harvestehude Church,Altona Museum,5214,1224
+St. Johannis-Harvestehude Church,Museum of Hamburg History,2976,785
+St. Gertrud Church,Altona Museum,7693,1661
+St. Gertrud Church,Museum of Hamburg History,4767,1061
+Elbphilharmonie,Altona Museum,4255,1058
+Elbphilharmonie,Museum of Hamburg History,1897,485
+Stage Operettenhaus,Altona Museum,2413,494
+Stage Operettenhaus,Museum of Hamburg History,777,232
+Miniature Wonderland,Altona Museum,4526,992
+Miniature Wonderland,Museum of Hamburg History,1600,391
+Olivia Jones Bar,Altona Museum,1865,413
+Olivia Jones Bar,Museum of Hamburg History,1461,363
+Citypark,Altona Museum,8190,1831
+Citypark,Museum of Hamburg History,6364,1487
+Planten un Blomen,Altona Museum,3953,878
+Planten un Blomen,Museum of Hamburg History,1357,447
+Altona Volkspark,Altona Museum,5172,1025
+Altona Volkspark,Museum of Hamburg History,7247,1465
+Cherry avenue in the main cemetery Altona,Altona Museum,6209,1265
+Cherry avenue in the main cemetery Altona,Museum of Hamburg History,8711,1743
+Citypark,Altona Museum,7870,1774
+Citypark,Museum of Hamburg History,6044,1430
+Alsterpark,Altona Museum,5590,1461
+Alsterpark,Museum of Hamburg History,4314,1021
+Schanzenpark,Altona Museum,3930,852
+Schanzenpark,Museum of Hamburg History,2295,492
+International Maritime Museum,Altona Museum,5233,1190
+International Maritime Museum,Museum of Hamburg History,2307,590
+Speicherstadtmuseum,Altona Museum,4295,993
+Speicherstadtmuseum,Museum of Hamburg History,1937,419
+Altona Museum,Museum of Hamburg History,3118,666
+Museum of Hamburg History,Altona Museum,3159,644
+Museum of Illusions,Altona Museum,5505,1139
+Museum of Illusions,Museum of Hamburg History,2579,539
+U-Boat Museum,Altona Museum,2229,526
+U-Boat Museum,Museum of Hamburg History,1840,462
+Hamburg Art Gallery,Altona Museum,5791,1164
+Hamburg Art Gallery,Museum of Hamburg History,2865,564
+Gilde Bowling Alley,Altona Museum,3055,578
+Gilde Bowling Alley,Museum of Hamburg History,6178,1185
+U.S. FUN BOWLING,Altona Museum,8788,1842
+U.S. FUN BOWLING,Museum of Hamburg History,5862,1241
+Tower Tag Arena Hamburg,Altona Museum,4689,998
+Tower Tag Arena Hamburg,Museum of Hamburg History,1763,397
+Lasertag Hamburg St. Pauli,Altona Museum,2223,467
+Lasertag Hamburg St. Pauli,Museum of Hamburg History,968,268
+Minigolf course Planten un Blomen,Altona Museum,2918,763
+Minigolf course Planten un Blomen,Museum of Hamburg History,416,308
+City Hall,Altona Museum,4516,945
+City Hall,Museum of Hamburg History,1590,344
+Panoptikum,Altona Museum,2372,488
+Panoptikum,Museum of Hamburg History,818,239
+St. Pauli Landing Bridges & Old Elbe Tunnel,Altona Museum,3267,751
+St. Pauli Landing Bridges & Old Elbe Tunnel,Museum of Hamburg History,1116,326
+Alster fountain,Altona Museum,5004,1038
+Alster fountain,Museum of Hamburg History,2078,437
+Speicherstadt,Altona Museum,5282,1172
+Speicherstadt,Museum of Hamburg History,2356,571
+Altona Town Hall,Altona Museum,258,64
+Altona Town Hall,Museum of Hamburg History,2887,617
+Fish auction hall,Altona Museum,2070,497
+Fish auction hall,Museum of Hamburg History,2073,530
+Volksparkstadion & HSV-Museum,Museum of Illusions,9608,1921
+Volksparkstadion & HSV-Museum,U-Boat Museum,8011,1542
+Millerntor-Stadion,Museum of Illusions,3023,752
+Millerntor-Stadion,U-Boat Museum,2555,593
+St. Michaelis Church,Museum of Illusions,2310,547
+St. Michaelis Church,U-Boat Museum,1875,381
+St. Jacobi Church,Museum of Illusions,679,175
+St. Jacobi Church,U-Boat Museum,3450,694
+St. Peter’s Church,Museum of Illusions,590,161
+St. Peter’s Church,U-Boat Museum,3331,682
+St. Katharinen Church,Museum of Illusions,1461,379
+St. Katharinen Church,U-Boat Museum,3073,618
+St. Nikolai Church,Museum of Illusions,1629,388
+St. Nikolai Church,U-Boat Museum,2656,571
+St. Ansgar and Bernhard Church ,Museum of Illusions,1713,386
+St. Ansgar and Bernhard Church ,U-Boat Museum,2453,522
+St Mary's Cathedral,Museum of Illusions,1230,260
+St Mary's Cathedral,U-Boat Museum,4963,968
+St. Johannis-Harvestehude Church,Museum of Illusions,3142,641
+St. Johannis-Harvestehude Church,U-Boat Museum,5128,1166
+St. Gertrud Church,Museum of Illusions,2892,653
+St. Gertrud Church,U-Boat Museum,6266,1398
+Elbphilharmonie,Museum of Illusions,2390,595
+Elbphilharmonie,U-Boat Museum,2316,596
+Stage Operettenhaus,Museum of Illusions,3093,704
+Stage Operettenhaus,U-Boat Museum,1563,321
+Miniature Wonderland,Museum of Illusions,1795,518
+Miniature Wonderland,U-Boat Museum,2568,576
+Olivia Jones Bar,Museum of Illusions,3834,825
+Olivia Jones Bar,U-Boat Museum,1226,257
+Citypark,Museum of Illusions,6429,1297
+Citypark,U-Boat Museum,8722,1882
+Planten un Blomen,Museum of Illusions,1532,337
+Planten un Blomen,U-Boat Museum,2922,704
+Altona Volkspark,Museum of Illusions,9621,1927
+Altona Volkspark,U-Boat Museum,7149,1381
+Cherry avenue in the main cemetery Altona,Museum of Illusions,10647,2109
+Cherry avenue in the main cemetery Altona,U-Boat Museum,8186,1621
+Citypark,Museum of Illusions,5900,1211
+Citypark,U-Boat Museum,8402,1825
+Alsterpark,Museum of Illusions,3014,769
+Alsterpark,U-Boat Museum,5813,1359
+Schanzenpark,Museum of Illusions,3310,642
+Schanzenpark,U-Boat Museum,3715,799
+International Maritime Museum,Museum of Illusions,1894,492
+International Maritime Museum,U-Boat Museum,3266,783
+Speicherstadtmuseum,Museum of Illusions,2510,599
+Speicherstadtmuseum,U-Boat Museum,2356,530
+Altona Museum,Museum of Illusions,5434,1139
+Altona Museum,U-Boat Museum,2240,397
+Museum of Hamburg History,Museum of Illusions,3044,574
+Museum of Hamburg History,U-Boat Museum,1873,430
+Museum of Illusions,U-Boat Museum,4233,826
+U-Boat Museum,Museum of Illusions,4038,928
+Hamburg Art Gallery,Museum of Illusions,469,114
+Hamburg Art Gallery,U-Boat Museum,4201,822
+Gilde Bowling Alley,Museum of Illusions,8494,1657
+Gilde Bowling Alley,U-Boat Museum,5300,915
+U.S. FUN BOWLING,Museum of Illusions,4112,899
+U.S. FUN BOWLING,U-Boat Museum,7362,1579
+Tower Tag Arena Hamburg,Museum of Illusions,1958,525
+Tower Tag Arena Hamburg,U-Boat Museum,2619,586
+Lasertag Hamburg St. Pauli,Museum of Illusions,3284,740
+Lasertag Hamburg St. Pauli,U-Boat Museum,1416,304
+Minigolf course Planten un Blomen,Museum of Illusions,3093,837
+Minigolf course Planten un Blomen,U-Boat Museum,1840,578
+City Hall,Museum of Illusions,980,266
+City Hall,U-Boat Museum,3089,682
+Panoptikum,Museum of Illusions,3134,711
+Panoptikum,U-Boat Museum,1527,317
+St. Pauli Landing Bridges & Old Elbe Tunnel,Museum of Illusions,3313,792
+St. Pauli Landing Bridges & Old Elbe Tunnel,U-Boat Museum,905,158
+Alster fountain,Museum of Illusions,699,219
+Alster fountain,U-Boat Museum,3578,775
+Speicherstadt,Museum of Illusions,1644,447
+Speicherstadt,U-Boat Museum,3692,829
+Altona Town Hall,Museum of Illusions,5203,1089
+Altona Town Hall,U-Boat Museum,2009,347
+Fish auction hall,Museum of Illusions,4270,996
+Fish auction hall,U-Boat Museum,286,51
+Volksparkstadion & HSV-Museum,Hamburg Art Gallery,8863,1748
+Volksparkstadion & HSV-Museum,Gilde Bowling Alley,4297,837
+Millerntor-Stadion,Hamburg Art Gallery,2964,693
+Millerntor-Stadion,Gilde Bowling Alley,5475,1172
+St. Michaelis Church,Hamburg Art Gallery,2795,599
+St. Michaelis Church,Gilde Bowling Alley,5997,1216
+St. Jacobi Church,Hamburg Art Gallery,1047,232
+St. Jacobi Church,Gilde Bowling Alley,7572,1543
+St. Peter’s Church,Hamburg Art Gallery,1057,233
+St. Peter’s Church,Gilde Bowling Alley,7453,1531
+St. Katharinen Church,Hamburg Art Gallery,1837,436
+St. Katharinen Church,Gilde Bowling Alley,7195,1467
+St. Nikolai Church,Hamburg Art Gallery,2096,460
+St. Nikolai Church,Gilde Bowling Alley,6756,1391
+St. Ansgar and Bernhard Church ,Hamburg Art Gallery,1683,396
+St. Ansgar and Bernhard Church ,Gilde Bowling Alley,6231,1311
+St Mary's Cathedral,Hamburg Art Gallery,762,146
+St Mary's Cathedral,Gilde Bowling Alley,9085,1817
+St. Johannis-Harvestehude Church,Hamburg Art Gallery,2349,516
+St. Johannis-Harvestehude Church,Gilde Bowling Alley,7628,1656
+St. Gertrud Church,Hamburg Art Gallery,2423,539
+St. Gertrud Church,Gilde Bowling Alley,10396,2187
+Elbphilharmonie,Hamburg Art Gallery,2585,653
+Elbphilharmonie,Gilde Bowling Alley,7135,1576
+Stage Operettenhaus,Hamburg Art Gallery,3698,838
+Stage Operettenhaus,Gilde Bowling Alley,5293,1012
+Miniature Wonderland,Hamburg Art Gallery,2203,613
+Miniature Wonderland,Gilde Bowling Alley,7058,1498
+Olivia Jones Bar,Hamburg Art Gallery,4440,959
+Olivia Jones Bar,Gilde Bowling Alley,4605,873
+Citypark,Hamburg Art Gallery,5768,1160
+Citypark,Gilde Bowling Alley,10249,2254
+Planten un Blomen,Hamburg Art Gallery,1229,293
+Planten un Blomen,Gilde Bowling Alley,6568,1360
+Altona Volkspark,Hamburg Art Gallery,9674,1868
+Altona Volkspark,Gilde Bowling Alley,2865,551
+Cherry avenue in the main cemetery Altona,Hamburg Art Gallery,9902,1936
+Cherry avenue in the main cemetery Altona,Gilde Bowling Alley,3879,779
+Citypark,Hamburg Art Gallery,5240,1074
+Citypark,Gilde Bowling Alley,9929,2197
+Alsterpark,Hamburg Art Gallery,2238,604
+Alsterpark,Gilde Bowling Alley,8003,1893
+Schanzenpark,Hamburg Art Gallery,2565,469
+Schanzenpark,Gilde Bowling Alley,6343,1283
+International Maritime Museum,Hamburg Art Gallery,1621,430
+International Maritime Museum,Gilde Bowling Alley,7765,1697
+Speicherstadtmuseum,Hamburg Art Gallery,2362,665
+Speicherstadtmuseum,Gilde Bowling Alley,7175,1510
+Altona Museum,Hamburg Art Gallery,6005,1110
+Altona Museum,Gilde Bowling Alley,2997,538
+Museum of Hamburg History,Hamburg Art Gallery,2670,548
+Museum of Hamburg History,Gilde Bowling Alley,5691,1151
+Museum of Illusions,Hamburg Art Gallery,334,99
+Museum of Illusions,Gilde Bowling Alley,8037,1646
+U-Boat Museum,Hamburg Art Gallery,4645,1028
+U-Boat Museum,Gilde Bowling Alley,5110,1043
+Hamburg Art Gallery,Gilde Bowling Alley,8323,1671
+Gilde Bowling Alley,Hamburg Art Gallery,8405,1651
+U.S. FUN BOWLING,Hamburg Art Gallery,3468,758
+U.S. FUN BOWLING,Gilde Bowling Alley,11492,2367
+Tower Tag Arena Hamburg,Hamburg Art Gallery,2366,620
+Tower Tag Arena Hamburg,Gilde Bowling Alley,7221,1504
+Lasertag Hamburg St. Pauli,Hamburg Art Gallery,3889,874
+Lasertag Hamburg St. Pauli,Gilde Bowling Alley,5103,985
+Minigolf course Planten un Blomen,Hamburg Art Gallery,2719,811
+Minigolf course Planten un Blomen,Gilde Bowling Alley,5798,1280
+City Hall,Hamburg Art Gallery,973,304
+City Hall,Gilde Bowling Alley,7048,1451
+Panoptikum,Hamburg Art Gallery,3740,845
+Panoptikum,Gilde Bowling Alley,5252,1006
+St. Pauli Landing Bridges & Old Elbe Tunnel,Hamburg Art Gallery,3920,892
+St. Pauli Landing Bridges & Old Elbe Tunnel,Gilde Bowling Alley,6148,1268
+Alster fountain,Hamburg Art Gallery,354,202
+Alster fountain,Gilde Bowling Alley,7536,1544
+Speicherstadt,Hamburg Art Gallery,2052,542
+Speicherstadt,Gilde Bowling Alley,7814,1678
+Altona Town Hall,Hamburg Art Gallery,6070,1143
+Altona Town Hall,Gilde Bowling Alley,3165,594
+Fish auction hall,Hamburg Art Gallery,4877,1096
+Fish auction hall,Gilde Bowling Alley,4951,1014
+Volksparkstadion & HSV-Museum,U.S. FUN BOWLING,11775,2395
+Volksparkstadion & HSV-Museum,Tower Tag Arena Hamburg,10313,1991
+Millerntor-Stadion,U.S. FUN BOWLING,5876,1340
+Millerntor-Stadion,Tower Tag Arena Hamburg,3717,745
+St. Michaelis Church,U.S. FUN BOWLING,5708,1245
+St. Michaelis Church,Tower Tag Arena Hamburg,2182,447
+St. Jacobi Church,U.S. FUN BOWLING,4207,921
+St. Jacobi Church,Tower Tag Arena Hamburg,1324,336
+St. Peter’s Church,U.S. FUN BOWLING,4218,922
+St. Peter’s Church,Tower Tag Arena Hamburg,1205,324
+St. Katharinen Church,U.S. FUN BOWLING,4997,1125
+St. Katharinen Church,Tower Tag Arena Hamburg,621,136
+St. Nikolai Church,U.S. FUN BOWLING,5425,1178
+St. Nikolai Church,Tower Tag Arena Hamburg,1095,256
+St. Ansgar and Bernhard Church ,U.S. FUN BOWLING,5227,1118
+St. Ansgar and Bernhard Church ,Tower Tag Arena Hamburg,1904,417
+St Mary's Cathedral,U.S. FUN BOWLING,2711,652
+St Mary's Cathedral,Tower Tag Arena Hamburg,2668,573
+St. Johannis-Harvestehude Church,U.S. FUN BOWLING,5217,1140
+St. Johannis-Harvestehude Church,Tower Tag Arena Hamburg,3881,871
+St. Gertrud Church,U.S. FUN BOWLING,1457,326
+St. Gertrud Church,Tower Tag Arena Hamburg,4504,981
+Elbphilharmonie,U.S. FUN BOWLING,5684,1339
+Elbphilharmonie,Tower Tag Arena Hamburg,884,151
+Stage Operettenhaus,U.S. FUN BOWLING,6414,1490
+Stage Operettenhaus,Tower Tag Arena Hamburg,2608,510
+Miniature Wonderland,U.S. FUN BOWLING,5302,1300
+Miniature Wonderland,Tower Tag Arena Hamburg,788,169
+Olivia Jones Bar,U.S. FUN BOWLING,7178,1610
+Olivia Jones Bar,Tower Tag Arena Hamburg,3706,726
+Citypark,U.S. FUN BOWLING,3678,748
+Citypark,Tower Tag Arena Hamburg,7734,1640
+Planten un Blomen,U.S. FUN BOWLING,4142,940
+Planten un Blomen,Tower Tag Arena Hamburg,2271,568
+Altona Volkspark,U.S. FUN BOWLING,12587,2515
+Altona Volkspark,Tower Tag Arena Hamburg,9492,1828
+Cherry avenue in the main cemetery Altona,U.S. FUN BOWLING,12815,2583
+Cherry avenue in the main cemetery Altona,Tower Tag Arena Hamburg,10956,2106
+Citypark,U.S. FUN BOWLING,2119,525
+Citypark,Tower Tag Arena Hamburg,7205,1554
+Alsterpark,U.S. FUN BOWLING,5106,1229
+Alsterpark,Tower Tag Arena Hamburg,3954,1031
+Schanzenpark,U.S. FUN BOWLING,5478,1116
+Schanzenpark,Tower Tag Arena Hamburg,4229,902
+International Maritime Museum,U.S. FUN BOWLING,4720,1116
+International Maritime Museum,Tower Tag Arena Hamburg,647,196
+Speicherstadtmuseum,U.S. FUN BOWLING,5461,1352
+Speicherstadtmuseum,Tower Tag Arena Hamburg,730,209
+Altona Museum,U.S. FUN BOWLING,8918,1756
+Altona Museum,Tower Tag Arena Hamburg,4947,918
+Museum of Hamburg History,U.S. FUN BOWLING,5583,1195
+Museum of Hamburg History,Tower Tag Arena Hamburg,2594,485
+Museum of Illusions,U.S. FUN BOWLING,3618,802
+Museum of Illusions,Tower Tag Arena Hamburg,1973,461
+U-Boat Museum,U.S. FUN BOWLING,7435,1642
+U-Boat Museum,Tower Tag Arena Hamburg,3013,571
+Hamburg Art Gallery,U.S. FUN BOWLING,3408,796
+Hamburg Art Gallery,Tower Tag Arena Hamburg,1906,426
+Gilde Bowling Alley,U.S. FUN BOWLING,11318,2298
+Gilde Bowling Alley,Tower Tag Arena Hamburg,8007,1437
+U.S. FUN BOWLING,Tower Tag Arena Hamburg,5433,1237
+Tower Tag Arena Hamburg,U.S. FUN BOWLING,5465,1306
+Lasertag Hamburg St. Pauli,U.S. FUN BOWLING,6605,1527
+Lasertag Hamburg St. Pauli,Tower Tag Arena Hamburg,2786,544
+Minigolf course Planten un Blomen,U.S. FUN BOWLING,5632,1457
+Minigolf course Planten un Blomen,Tower Tag Arena Hamburg,2846,733
+City Hall,U.S. FUN BOWLING,4677,1040
+City Hall,Tower Tag Arena Hamburg,2021,398
+Panoptikum,U.S. FUN BOWLING,6456,1498
+Panoptikum,Tower Tag Arena Hamburg,2649,517
+St. Pauli Landing Bridges & Old Elbe Tunnel,U.S. FUN BOWLING,6710,1507
+St. Pauli Landing Bridges & Old Elbe Tunnel,Tower Tag Arena Hamburg,2289,436
+Alster fountain,U.S. FUN BOWLING,4748,1059
+Alster fountain,Tower Tag Arena Hamburg,1649,433
+Speicherstadt,U.S. FUN BOWLING,5151,1228
+Speicherstadt,Tower Tag Arena Hamburg,833,212
+Altona Town Hall,U.S. FUN BOWLING,8983,1789
+Altona Town Hall,Tower Tag Arena Hamburg,4716,868
+Fish auction hall,U.S. FUN BOWLING,7667,1711
+Fish auction hall,Tower Tag Arena Hamburg,3245,640
+Volksparkstadion & HSV-Museum,Lasertag Hamburg St. Pauli,7755,1586
+Volksparkstadion & HSV-Museum,Minigolf course Planten un Blomen,8014,1750
+Millerntor-Stadion,Lasertag Hamburg St. Pauli,1557,374
+Millerntor-Stadion,Minigolf course Planten un Blomen,1229,482
+St. Michaelis Church,Lasertag Hamburg St. Pauli,1219,203
+St. Michaelis Church,Minigolf course Planten un Blomen,855,346
+St. Jacobi Church,Lasertag Hamburg St. Pauli,2992,595
+St. Jacobi Church,Minigolf course Planten un Blomen,2430,672
+St. Peter’s Church,Lasertag Hamburg St. Pauli,2873,583
+St. Peter’s Church,Minigolf course Planten un Blomen,2310,660
+St. Katharinen Church,Lasertag Hamburg St. Pauli,2616,519
+St. Katharinen Church,Minigolf course Planten un Blomen,2053,596
+St. Nikolai Church,Lasertag Hamburg St. Pauli,2176,443
+St. Nikolai Church,Minigolf course Planten un Blomen,1614,520
+St. Ansgar and Bernhard Church ,Lasertag Hamburg St. Pauli,1652,364
+St. Ansgar and Bernhard Church ,Minigolf course Planten un Blomen,1089,441
+St Mary's Cathedral,Lasertag Hamburg St. Pauli,4505,869
+St Mary's Cathedral,Minigolf course Planten un Blomen,3942,946
+St. Johannis-Harvestehude Church,Lasertag Hamburg St. Pauli,4131,947
+St. Johannis-Harvestehude Church,Minigolf course Planten un Blomen,3023,1020
+St. Gertrud Church,Lasertag Hamburg St. Pauli,5645,1220
+St. Gertrud Church,Minigolf course Planten un Blomen,5082,1297
+Elbphilharmonie,Lasertag Hamburg St. Pauli,2131,521
+Elbphilharmonie,Minigolf course Planten un Blomen,2213,721
+Stage Operettenhaus,Lasertag Hamburg St. Pauli,190,27
+Stage Operettenhaus,Minigolf course Planten un Blomen,618,351
+Miniature Wonderland,Lasertag Hamburg St. Pauli,2478,550
+Miniature Wonderland,Minigolf course Planten un Blomen,1915,628
+Olivia Jones Bar,Lasertag Hamburg St. Pauli,829,176
+Olivia Jones Bar,Minigolf course Planten un Blomen,1407,485
+Citypark,Lasertag Hamburg St. Pauli,7519,1650
+Citypark,Minigolf course Planten un Blomen,6412,1722
+Planten un Blomen,Lasertag Hamburg St. Pauli,1924,485
+Planten un Blomen,Minigolf course Planten un Blomen,1177,550
+Altona Volkspark,Lasertag Hamburg St. Pauli,6934,1423
+Altona Volkspark,Minigolf course Planten un Blomen,7193,1586
+Cherry avenue in the main cemetery Altona,Lasertag Hamburg St. Pauli,8398,1701
+Cherry avenue in the main cemetery Altona,Minigolf course Planten un Blomen,8657,1864
+Citypark,Lasertag Hamburg St. Pauli,7199,1593
+Citypark,Minigolf course Planten un Blomen,6092,1665
+Alsterpark,Lasertag Hamburg St. Pauli,5192,1180
+Alsterpark,Minigolf course Planten un Blomen,4629,1257
+Schanzenpark,Lasertag Hamburg St. Pauli,2717,581
+Schanzenpark,Minigolf course Planten un Blomen,1970,645
+International Maritime Museum,Lasertag Hamburg St. Pauli,3185,749
+International Maritime Museum,Minigolf course Planten un Blomen,2622,826
+Speicherstadtmuseum,Lasertag Hamburg St. Pauli,2171,455
+Speicherstadtmuseum,Minigolf course Planten un Blomen,2253,656
+Altona Museum,Lasertag Hamburg St. Pauli,2308,452
+Altona Museum,Minigolf course Planten un Blomen,2959,786
+Museum of Hamburg History,Lasertag Hamburg St. Pauli,983,240
+Museum of Hamburg History,Minigolf course Planten un Blomen,549,280
+Museum of Illusions,Lasertag Hamburg St. Pauli,3457,698
+Museum of Illusions,Minigolf course Planten un Blomen,2894,775
+U-Boat Museum,Lasertag Hamburg St. Pauli,1876,388
+U-Boat Museum,Minigolf course Planten un Blomen,1895,625
+Hamburg Art Gallery,Lasertag Hamburg St. Pauli,3743,723
+Hamburg Art Gallery,Minigolf course Planten un Blomen,3180,800
+Gilde Bowling Alley,Lasertag Hamburg St. Pauli,5368,970
+Gilde Bowling Alley,Minigolf course Planten un Blomen,6020,1304
+U.S. FUN BOWLING,Lasertag Hamburg St. Pauli,6741,1401
+U.S. FUN BOWLING,Minigolf course Planten un Blomen,6178,1478
+Tower Tag Arena Hamburg,Lasertag Hamburg St. Pauli,2433,512
+Tower Tag Arena Hamburg,Minigolf course Planten un Blomen,2078,634
+Lasertag Hamburg St. Pauli,Minigolf course Planten un Blomen,809,387
+Minigolf course Planten un Blomen,Lasertag Hamburg St. Pauli,1001,401
+City Hall,Lasertag Hamburg St. Pauli,2468,503
+City Hall,Minigolf course Planten un Blomen,1905,581
+Panoptikum,Lasertag Hamburg St. Pauli,149,21
+Panoptikum,Minigolf course Planten un Blomen,660,358
+St. Pauli Landing Bridges & Old Elbe Tunnel,Lasertag Hamburg St. Pauli,1152,252
+St. Pauli Landing Bridges & Old Elbe Tunnel,Minigolf course Planten un Blomen,1171,489
+Alster fountain,Lasertag Hamburg St. Pauli,2956,596
+Alster fountain,Minigolf course Planten un Blomen,2394,673
+Speicherstadt,Lasertag Hamburg St. Pauli,3235,731
+Speicherstadt,Minigolf course Planten un Blomen,2672,808
+Altona Town Hall,Lasertag Hamburg St. Pauli,2077,402
+Altona Town Hall,Minigolf course Planten un Blomen,2729,736
+Fish auction hall,Lasertag Hamburg St. Pauli,1354,354
+Fish auction hall,Minigolf course Planten un Blomen,2128,693
+Volksparkstadion & HSV-Museum,City Hall,9425,1836
+Volksparkstadion & HSV-Museum,Panoptikum,8100,1583
+Millerntor-Stadion,City Hall,2017,483
+Millerntor-Stadion,Panoptikum,1420,355
+St. Michaelis Church,City Hall,1294,292
+St. Michaelis Church,Panoptikum,1083,184
+St. Jacobi Church,City Hall,800,150
+St. Jacobi Church,Panoptikum,2856,576
+St. Peter’s Church,City Hall,476,92
+St. Peter’s Church,Panoptikum,2736,564
+St. Katharinen Church,City Hall,1288,265
+St. Katharinen Church,Panoptikum,2479,500
+St. Nikolai Church,City Hall,850,156
+St. Nikolai Church,Panoptikum,2040,424
+St. Ansgar and Bernhard Church ,City Hall,823,135
+St. Ansgar and Bernhard Church ,Panoptikum,1515,345
+St Mary's Cathedral,City Hall,2121,388
+St Mary's Cathedral,Panoptikum,4368,850
+St. Johannis-Harvestehude Church,City Hall,2751,536
+St. Johannis-Harvestehude Church,Panoptikum,3994,928
+St. Gertrud Church,City Hall,3278,734
+St. Gertrud Church,Panoptikum,5508,1201
+Elbphilharmonie,City Hall,1685,423
+Elbphilharmonie,Panoptikum,1994,502
+Stage Operettenhaus,City Hall,2076,449
+Stage Operettenhaus,Panoptikum,42,6
+Miniature Wonderland,City Hall,1150,296
+Miniature Wonderland,Panoptikum,2342,531
+Olivia Jones Bar,City Hall,2818,571
+Olivia Jones Bar,Panoptikum,883,187
+Citypark,City Hall,6264,1309
+Citypark,Panoptikum,7382,1631
+Planten un Blomen,City Hall,1142,232
+Planten un Blomen,Panoptikum,1787,466
+Altona Volkspark,City Hall,8604,1673
+Altona Volkspark,Panoptikum,7279,1419
+Cherry avenue in the main cemetery Altona,City Hall,10068,1951
+Cherry avenue in the main cemetery Altona,Panoptikum,8743,1697
+Citypark,City Hall,6146,1232
+Citypark,Panoptikum,7062,1574
+Alsterpark,City Hall,2825,695
+Alsterpark,Panoptikum,5055,1161
+Schanzenpark,City Hall,2920,537
+Schanzenpark,Panoptikum,2580,562
+International Maritime Museum,City Hall,1320,411
+International Maritime Museum,Panoptikum,3048,730
+Speicherstadtmuseum,City Hall,1506,406
+Speicherstadtmuseum,Panoptikum,2034,437
+Altona Museum,City Hall,4417,884
+Altona Museum,Panoptikum,2361,464
+Museum of Hamburg History,City Hall,1706,330
+Museum of Hamburg History,Panoptikum,846,221
+Museum of Illusions,City Hall,1090,213
+Museum of Illusions,Panoptikum,3320,679
+U-Boat Museum,City Hall,3034,735
+U-Boat Museum,Panoptikum,1693,351
+Hamburg Art Gallery,City Hall,1359,242
+Hamburg Art Gallery,Panoptikum,3606,704
+Gilde Bowling Alley,City Hall,7477,1403
+Gilde Bowling Alley,Panoptikum,5421,982
+U.S. FUN BOWLING,City Hall,4374,915
+U.S. FUN BOWLING,Panoptikum,6604,1382
+Tower Tag Arena Hamburg,City Hall,1313,302
+Tower Tag Arena Hamburg,Panoptikum,2296,493
+Lasertag Hamburg St. Pauli,City Hall,2267,486
+Lasertag Hamburg St. Pauli,Panoptikum,149,28
+Minigolf course Planten un Blomen,City Hall,1958,578
+Minigolf course Planten un Blomen,Panoptikum,865,382
+City Hall,Panoptikum,2332,485
+Panoptikum,City Hall,2118,457
+St. Pauli Landing Bridges & Old Elbe Tunnel,City Hall,2310,599
+St. Pauli Landing Bridges & Old Elbe Tunnel,Panoptikum,1313,280
+Alster fountain,City Hall,590,111
+Alster fountain,Panoptikum,2820,577
+Speicherstadt,City Hall,1370,392
+Speicherstadt,Panoptikum,3098,712
+Altona Town Hall,City Hall,4187,835
+Altona Town Hall,Panoptikum,2131,414
+Fish auction hall,City Hall,3266,803
+Fish auction hall,Panoptikum,1408,366
+Volksparkstadion & HSV-Museum,St. Pauli Landing Bridges & Old Elbe Tunnel,8345,1682
+Volksparkstadion & HSV-Museum,Alster fountain,9180,1801
+Millerntor-Stadion,St. Pauli Landing Bridges & Old Elbe Tunnel,2109,496
+Millerntor-Stadion,Alster fountain,2596,632
+St. Michaelis Church,St. Pauli Landing Bridges & Old Elbe Tunnel,1593,350
+St. Michaelis Church,Alster fountain,2742,504
+St. Jacobi Church,St. Pauli Landing Bridges & Old Elbe Tunnel,2998,600
+St. Jacobi Church,Alster fountain,666,161
+St. Peter’s Church,St. Pauli Landing Bridges & Old Elbe Tunnel,2878,588
+St. Peter’s Church,Alster fountain,626,146
+St. Katharinen Church,St. Pauli Landing Bridges & Old Elbe Tunnel,2621,524
+St. Katharinen Church,Alster fountain,1334,364
+St. Nikolai Church,St. Pauli Landing Bridges & Old Elbe Tunnel,2351,525
+St. Nikolai Church,Alster fountain,1491,348
+St. Ansgar and Bernhard Church ,St. Pauli Landing Bridges & Old Elbe Tunnel,1827,445
+St. Ansgar and Bernhard Church ,Alster fountain,1372,289
+St Mary's Cathedral,St. Pauli Landing Bridges & Old Elbe Tunnel,4510,874
+St Mary's Cathedral,Alster fountain,1339,289
+St. Johannis-Harvestehude Church,St. Pauli Landing Bridges & Old Elbe Tunnel,4682,1069
+St. Johannis-Harvestehude Church,Alster fountain,2714,521
+St. Gertrud Church,St. Pauli Landing Bridges & Old Elbe Tunnel,5820,1302
+St. Gertrud Church,Alster fountain,2689,624
+Elbphilharmonie,St. Pauli Landing Bridges & Old Elbe Tunnel,1920,461
+Elbphilharmonie,Alster fountain,2266,595
+Stage Operettenhaus,St. Pauli Landing Bridges & Old Elbe Tunnel,1242,258
+Stage Operettenhaus,Alster fountain,2718,641
+Miniature Wonderland,St. Pauli Landing Bridges & Old Elbe Tunnel,2116,482
+Miniature Wonderland,Alster fountain,1671,518
+Olivia Jones Bar,St. Pauli Landing Bridges & Old Elbe Tunnel,1575,336
+Olivia Jones Bar,Alster fountain,3459,763
+Citypark,St. Pauli Landing Bridges & Old Elbe Tunnel,8071,1771
+Citypark,Alster fountain,6085,1207
+Planten un Blomen,St. Pauli Landing Bridges & Old Elbe Tunnel,2476,607
+Planten un Blomen,Alster fountain,1105,217
+Altona Volkspark,St. Pauli Landing Bridges & Old Elbe Tunnel,7623,1492
+Altona Volkspark,Alster fountain,9246,1865
+Cherry avenue in the main cemetery Altona,St. Pauli Landing Bridges & Old Elbe Tunnel,8988,1797
+Cherry avenue in the main cemetery Altona,Alster fountain,10220,1989
+Citypark,St. Pauli Landing Bridges & Old Elbe Tunnel,8687,1799
+Citypark,Alster fountain,5556,1121
+Alsterpark,St. Pauli Landing Bridges & Old Elbe Tunnel,5367,1262
+Alsterpark,Alster fountain,2554,661
+Schanzenpark,St. Pauli Landing Bridges & Old Elbe Tunnel,3269,702
+Schanzenpark,Alster fountain,2883,522
+International Maritime Museum,St. Pauli Landing Bridges & Old Elbe Tunnel,2870,648
+International Maritime Museum,Alster fountain,1470,465
+Speicherstadtmuseum,St. Pauli Landing Bridges & Old Elbe Tunnel,1960,395
+Speicherstadtmuseum,Alster fountain,2475,604
+Altona Museum,St. Pauli Landing Bridges & Old Elbe Tunnel,2714,508
+Altona Museum,Alster fountain,5059,1076
+Museum of Hamburg History,St. Pauli Landing Bridges & Old Elbe Tunnel,1427,333
+Museum of Hamburg History,Alster fountain,2617,454
+Museum of Illusions,St. Pauli Landing Bridges & Old Elbe Tunnel,3781,732
+Museum of Illusions,Alster fountain,501,102
+U-Boat Museum,St. Pauli Landing Bridges & Old Elbe Tunnel,724,136
+U-Boat Museum,Alster fountain,4003,933
+Hamburg Art Gallery,St. Pauli Landing Bridges & Old Elbe Tunnel,3749,728
+Hamburg Art Gallery,Alster fountain,578,143
+Gilde Bowling Alley,St. Pauli Landing Bridges & Old Elbe Tunnel,5774,1026
+Gilde Bowling Alley,Alster fountain,8119,1595
+U.S. FUN BOWLING,St. Pauli Landing Bridges & Old Elbe Tunnel,6916,1482
+U.S. FUN BOWLING,Alster fountain,3784,804
+Tower Tag Arena Hamburg,St. Pauli Landing Bridges & Old Elbe Tunnel,2222,451
+Tower Tag Arena Hamburg,Alster fountain,1834,524
+Lasertag Hamburg St. Pauli,St. Pauli Landing Bridges & Old Elbe Tunnel,1256,288
+Lasertag Hamburg St. Pauli,Alster fountain,2909,678
+Minigolf course Planten un Blomen,St. Pauli Landing Bridges & Old Elbe Tunnel,1394,481
+Minigolf course Planten un Blomen,Alster fountain,2666,717
+City Hall,St. Pauli Landing Bridges & Old Elbe Tunnel,2643,585
+City Hall,Alster fountain,662,197
+Panoptikum,St. Pauli Landing Bridges & Old Elbe Tunnel,1284,265
+Panoptikum,Alster fountain,2759,649
+St. Pauli Landing Bridges & Old Elbe Tunnel,Alster fountain,3279,797
+Alster fountain,St. Pauli Landing Bridges & Old Elbe Tunnel,3131,678
+Speicherstadt,St. Pauli Landing Bridges & Old Elbe Tunnel,3240,735
+Speicherstadt,Alster fountain,1520,446
+Altona Town Hall,St. Pauli Landing Bridges & Old Elbe Tunnel,2483,458
+Altona Town Hall,Alster fountain,4828,1027
+Fish auction hall,St. Pauli Landing Bridges & Old Elbe Tunnel,956,204
+Fish auction hall,Alster fountain,4235,1001
+Volksparkstadion & HSV-Museum,Speicherstadt,10458,1997
+Volksparkstadion & HSV-Museum,Altona Town Hall,6317,1263
+Millerntor-Stadion,Speicherstadt,3862,751
+Millerntor-Stadion,Altona Town Hall,3224,685
+St. Michaelis Church,Speicherstadt,2327,453
+St. Michaelis Church,Altona Town Hall,3230,676
+St. Jacobi Church,Speicherstadt,1231,289
+St. Jacobi Church,Altona Town Hall,4805,1003
+St. Peter’s Church,Speicherstadt,1092,284
+St. Peter’s Church,Altona Town Hall,4686,991
+St. Katharinen Church,Speicherstadt,526,258
+St. Katharinen Church,Altona Town Hall,4428,927
+St. Nikolai Church,Speicherstadt,1659,346
+St. Nikolai Church,Altona Town Hall,3989,851
+St. Ansgar and Bernhard Church ,Speicherstadt,2049,423
+St. Ansgar and Bernhard Church ,Altona Town Hall,3464,771
+St Mary's Cathedral,Speicherstadt,2045,424
+St Mary's Cathedral,Altona Town Hall,6317,1277
+St. Johannis-Harvestehude Church,Speicherstadt,3957,828
+St. Johannis-Harvestehude Church,Altona Town Hall,5345,1268
+St. Gertrud Church,Speicherstadt,3881,832
+St. Gertrud Church,Altona Town Hall,7458,1628
+Elbphilharmonie,Speicherstadt,1563,398
+Elbphilharmonie,Altona Town Hall,4019,1025
+Stage Operettenhaus,Speicherstadt,3109,610
+Stage Operettenhaus,Altona Town Hall,2178,461
+Miniature Wonderland,Speicherstadt,976,346
+Miniature Wonderland,Altona Town Hall,4291,958
+Olivia Jones Bar,Speicherstadt,3851,732
+Olivia Jones Bar,Altona Town Hall,1630,379
+Citypark,Speicherstadt,7244,1461
+Citypark,Altona Town Hall,8321,1875
+Planten un Blomen,Speicherstadt,2347,525
+Planten un Blomen,Altona Town Hall,3718,845
+Altona Volkspark,Speicherstadt,9637,1834
+Altona Volkspark,Altona Town Hall,5455,1102
+Cherry avenue in the main cemetery Altona,Speicherstadt,11101,2112
+Cherry avenue in the main cemetery Altona,Altona Town Hall,6492,1342
+Citypark,Speicherstadt,6715,1375
+Citypark,Altona Town Hall,8001,1818
+Alsterpark,Speicherstadt,3829,957
+Alsterpark,Altona Town Hall,7004,1588
+Schanzenpark,Speicherstadt,4125,830
+Schanzenpark,Altona Town Hall,4060,896
+International Maritime Museum,Speicherstadt,599,175
+International Maritime Museum,Altona Town Hall,4997,1157
+Speicherstadtmuseum,Speicherstadt,1340,411
+Speicherstadtmuseum,Altona Town Hall,4059,959
+Altona Museum,Speicherstadt,5450,1045
+Altona Museum,Altona Town Hall,258,73
+Museum of Hamburg History,Speicherstadt,2739,491
+Museum of Hamburg History,Altona Town Hall,2924,611
+Museum of Illusions,Speicherstadt,1351,312
+Museum of Illusions,Altona Town Hall,5270,1106
+U-Boat Museum,Speicherstadt,3623,773
+U-Boat Museum,Altona Town Hall,1994,492
+Hamburg Art Gallery,Speicherstadt,1284,277
+Hamburg Art Gallery,Altona Town Hall,5556,1131
+Gilde Bowling Alley,Speicherstadt,8511,1564
+Gilde Bowling Alley,Altona Town Hall,3340,602
+U.S. FUN BOWLING,Speicherstadt,5146,1064
+U.S. FUN BOWLING,Altona Town Hall,8553,1808
+Tower Tag Arena Hamburg,Speicherstadt,1139,353
+Tower Tag Arena Hamburg,Altona Town Hall,4454,964
+Lasertag Hamburg St. Pauli,Speicherstadt,3300,646
+Lasertag Hamburg St. Pauli,Altona Town Hall,1988,434
+Minigolf course Planten un Blomen,Speicherstadt,2991,739
+Minigolf course Planten un Blomen,Altona Town Hall,2683,729
+City Hall,Speicherstadt,2166,404
+City Hall,Altona Town Hall,4281,911
+Panoptikum,Speicherstadt,3151,617
+Panoptikum,Altona Town Hall,2136,455
+St. Pauli Landing Bridges & Old Elbe Tunnel,Speicherstadt,2899,638
+St. Pauli Landing Bridges & Old Elbe Tunnel,Altona Town Hall,3032,717
+Alster fountain,Speicherstadt,1803,434
+Alster fountain,Altona Town Hall,4769,1004
+Speicherstadt,Altona Town Hall,5047,1138
+Altona Town Hall,Speicherstadt,5220,995
+Fish auction hall,Speicherstadt,3855,842
+Fish auction hall,Altona Town Hall,1401,407
