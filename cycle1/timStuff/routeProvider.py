@@ -1,5 +1,5 @@
 """
-This script reads:  ratingDict created by userGenerationAndEval.py (ratings for each centroid)
+This script reads:  ratingDict created by k_means.py (ratings for each centroid)
                     routes.csv created by distances.py
                     places.csv
 
@@ -17,6 +17,7 @@ import csv
 import pickle
 import requests
 from placeRater import ratePlace
+from k_means import getCentroidOrder
 
 
 ### Basic setup of global data for functions to use
@@ -54,7 +55,7 @@ def maxScoreDistance(option, ratingVector):
     return ratingVector[option.dest] / (option.dist / 1000)
     
 def getDecision(options, valueFunction, ratingVector):
-    maxValue = 0
+    maxValue = -1
     for opt in options.itertuples():
         if valueFunction(opt, ratingVector) > maxValue:
             maxValue = valueFunction(opt, ratingVector)
@@ -101,24 +102,32 @@ def findGreedyHead(curPlace, distanceLeft, timeLeft, valueFunction, ratingVector
     return [curPlace]
 
 # This is the function which will be called from outside this script
-def getBestGreedy(place, distance, time, userData, destination):
-    if place is None:
-        row = places.sample(n=1)
-        place = row.values[0][1]
-
+def getBest(place, distance, time, userData, destination):
     # Build ratingVector for user (it is acc a dict name of place -> rating)
     ratingVector = {}
     for sight in places.iterrows():
         ratingVector[sight[1]["name"]] = ratePlace(sight[1], userData)
+    
+    if place is None:
+        rows = places.sample(n=3)
+        placeList = rows.values[:, 1]
+    else:
+        placeList = [place]
 
-    greedyResults = [[None, findGreedyHead(place, distance, time, maxScore, ratingVector, destination)], [None, findGreedyHead(place, distance, time, maxScoreTime, ratingVector, destination)], [None, findGreedyHead(place, distance, time, maxScoreDistance, ratingVector, destination)]]
-    for idx, result in enumerate(greedyResults):
+    for place in placeList:
+        # Greedy results
+        results = [[None, findGreedyHead(place, distance, time, maxScore, ratingVector, destination)], [None, findGreedyHead(place, distance, time, maxScoreDistance, ratingVector, destination)]]
+        
+        # Now we get the Q-learning results
+        results.append([None, modelGetSteps(place, distance, time, userData, destination)])
+    
+    for idx, result in enumerate(results):
         sum = 0
         for visitedPlace in result[1]:
             sum += ratingVector[visitedPlace]
-        greedyResults[idx][0] = sum
+        results[idx][0] = sum
 
-    bestRes = sorted(greedyResults, reverse=True)[0][1]
+    bestRes = sorted(results, reverse=True)[0][1]
     returnList = []
     for element in bestRes:
         returnList.append(places.iloc[placeToIdx[element]])
@@ -156,44 +165,51 @@ def scoreQ():
     return (np.sum(Q / np.max(Q) * 100))
 
 # Function that will be called from outside
-def modelGetSteps(place, distance, time, userData):
-    closestCentroid = getCentroidOrder(userData)[0]
+def modelGetSteps(place, distance, time, userData, destination):
+    if place is None:
+        row = places.sample(n=1)
+        place = row.values[0][1]
+
+    closestCentroid = getCentroidOrder(userData)[0][1]
 
     with open("pythonData/modelCentroid{}".format(closestCentroid), 'rb') as file: 
         Q = pickle.load(file)
 
-    destination = placeToIdx[place] # .place is Index not in "name"
-    steps = []
+    current_state = State(placeToIdx[place], distance // distanceStep - 1, time // timeStep - 1)
+    steps = [current_state]
     visited = []
-    current_state = State(destination, distance // distanceStep - 1, time // timeStep - 1)
     
     ### TODO ACTUALLY WE DON'T HAVE A FIXED DESTINATION SO TIME TO FIX
     while True:
         next_step_list = np.where(Q[current_state.place, :, current_state.distance, current_state.time] == np.max(Q[current_state.place, :, current_state.distance, current_state.time]))[0]
-        if len(next_step_list) == len(Q.shape[0]):
+        if len(next_step_list) == Q.shape[0]:
             # RAN OUT OF RESSOURCES
-            if (steps[-1].place == destination):
+            if (destination is None or steps[-1].place == placeToIdx[destination]):
                 break
             elif len(steps) == 1:
-                return []
+                break
             Q[steps[-2].place, steps[-1].place, steps[-2].distance, steps[-2].time] = 0
             current_state = steps[-2]
             steps = steps[:-1]
             visited = visited[:-1]
             continue
-        elif next_sftep_list[0] in visited or current_state.distance * distanceStep < routes.loc[(routesIndexed['origin'] == current_state.place) & (routesIndexed['dest'] == next_step_list[0]), "dist"].values[0]:
+        elif next_step_list[0] in visited or current_state.distance * distanceStep < routes.loc[(routesIndexed['origin'] == current_state.place) & (routesIndexed['dest'] == next_step_list[0]), "dist"].values[0]:
             # Top pick was already visited or is unaffordable
             # We will set score to zero and redo
             Q[current_state.place, next_step_list[0], current_state.distance, current_state.time] = 0
             continue
      
-        next_step = State(next_step_list[0], (int) (current_state.distance * distanceStep - routes.loc[(routesIndexed['origin'] == current_state.place) & (routesIndexed['dest'] == next_step_list[0]), "dist"].values[0]) // distanceStep, (int) (current_state.time * timeStep - routes.loc[(routesIndexed['origin'] == current_state.place) & (routesIndexed['dest'] == next_step_list[0]), 'timeCost'].values[0]) // timeStep)
+        next_step = State(next_step_list[0], (int) (current_state.distance * distanceStep - routes.loc[(routesIndexed['origin'] == current_state.place) & (routesIndexed['dest'] == next_step_list[0]), "dist"].values[0]) // distanceStep, (int) (current_state.time * timeStep - routes.loc[(routesIndexed['origin'] == current_state.place) & (routesIndexed['dest'] == next_step_list[0]), 'time'].values[0]) // timeStep)
         steps.append(next_step)
         visited.append(next_step.place)
         
         current_state = next_step
 
-    return steps
+
+    returnList = []
+    for step in steps:
+        returnList.append(places.iloc[step.place])
+    return pd.DataFrame(returnList)
 
 
 
