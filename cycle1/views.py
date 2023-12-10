@@ -48,13 +48,13 @@ def submit_form(request):
             nature = form.cleaned_data['nature']
             sights = form.cleaned_data['sights']
             funActivities = form.cleaned_data['funActivities']
-            max_time = form.cleaned_data['maxTime']
-            min_time = form.cleaned_data['minTime']
+            maxDestination = form.cleaned_data['maxDestination']
+            minDestination = form.cleaned_data['minDestination']
             origin = form.cleaned_data['origin']  # Corrected from 'orgin' to 'origin'
             destination = form.cleaned_data['destination']
 
             # Process the data using your Python script
-            similar_items = run_knn(mapped_age, gender, max_time, min_time, history, art, nature, sights, funActivities, origin, destination)
+            similar_items = run_knn(mapped_age, gender, maxDestination, minDestination, history, art, nature, sights, funActivities, origin, destination)
 
             result_dict_list = similar_items
             # Pass similar_items to the template

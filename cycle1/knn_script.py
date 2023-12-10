@@ -1,4 +1,4 @@
-def run_knn(age, gender, max_time, min_time, history, art, nature, sights, funActivities,origin,destination, num_neighbors=5):
+def run_knn(age, gender, maxDestination, minDestination, history, art, nature, sights, funActivities,origin,destination, num_neighbors=5):
     # Sample data (replace with your own data)
 
    
@@ -10,8 +10,8 @@ def run_knn(age, gender, max_time, min_time, history, art, nature, sights, funAc
     print(f"nature: {nature}")
     print(f"sights: {sights}")
     print(f"funActivities: {funActivities}")
-    print(f"Max Time: {max_time}")
-    print(f"Min Time: {min_time}")
+    print(f"maxDestination: {maxDestination}")
+    print(f"minDestination: {minDestination}")
     print(f"orgin: {origin}")
     print(f"destination: {destination}")
 
