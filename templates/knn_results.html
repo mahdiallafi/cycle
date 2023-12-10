@@ -32,7 +32,7 @@
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
     // Replace with your actual OpenCage Geocoding API key
-    var openCageApiKey = '';
+    var openCageApiKey = '0c1409758d1d4507adb0c5e3c6a5042c';
 
     // Replace with the dynamic locations data from Django view
     var locations = {% autoescape off %}{{ result | safe }}{% endautoescape %};
@@ -66,7 +66,7 @@
           popup.setContent(`
             <div>
               <h3>${location.address}</h3>
-              <img src="${location.image}" alt="${location.address}" style="max-width: 100%; height: auto;">
+              <p>${location.description}</p>
               <p><a href="${location.website}" target="_blank">Visit Website</a></p>
             </div>
           `);

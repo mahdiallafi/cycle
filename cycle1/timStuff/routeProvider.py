@@ -121,8 +121,7 @@ def getBestGreedy(place, distance, time, userData, destination):
     bestRes = sorted(greedyResults, reverse=True)[0][1]
     returnList = []
     for element in bestRes:
-        returnList.append(places.iloc[placeToIdx[element]])
-    pd.set_option('display.max_columns', None)   
+        returnList.append(places.iloc[placeToIdx[element]])  
     return pd.DataFrame(returnList)
         
 ### GREEDY IMPLEMENTATION OVER
