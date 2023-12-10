@@ -13,7 +13,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 140vh;
             margin: 0;
             padding: 0;
         }
@@ -29,7 +29,7 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust box-shadow for visibility */
             background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
-            width: 60%; /* Adjust the width as needed */
+            width: 40%; /* Adjust the width as needed */
         }
 
         .form-group {
@@ -102,13 +102,90 @@
         font-weight: bold;
         font-size: 18px;
     }
+    .time-group {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    text-align: left;
+    /* Add any other styles you want for the time inputs here */
+}
+
+/* Optional: Style the label for consistency */
+.time-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Optional: Style the input fields */
+.time-group input {
+    width: 100%; /* Make the input fields span the entire width of the container */
+    padding: 8px; /* Add padding for better visual appearance */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.age-group {
+    margin-bottom: 20px;
+    text-align: left;
+    /* Add any other styles you want for the age dropdown container here */
+}
+
+.age-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.age-group select {
+    width: 100%; /* Make the select element span the entire width of the container */
+    padding: 8px; /* Add padding for better visual appearance */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    /* Add any other styles you want for the select element here */
+}
+
+.orgin-group {
+    margin-bottom: 20px;
+    text-align: left;
+    /* Add any other styles you want for the age dropdown container here */
+}
+
+.orgin-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.orgin-group select {
+    width: 100%; /* Make the select element span the entire width of the container */
+    padding: 8px; /* Add padding for better visual appearance */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    /* Add any other styles you want for the select element here */
+}
     </style>
 
-    <div class="form-container" style="margin-top: 60px;margin-bottom: 60px;">
+    <div class="form-container" style="margin-top: 200px;">
         <form id="cycleForm" method="post" action="{% url 'submit_form' %}">
             {% csrf_token %}
 
-            <div class="form-group">
+
+            <div class="form-group orgin-group">
+                <label for="origin">Orgin:</label>
+                <select id="origin" name="origin">
+                    {% for city in city_list %}
+                        <option value="{{ city }}">{{ city }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+
+            <div class="form-group orgin-group">
+                <label for="destination">Destination:</label>
+                <select id="destination" name="destination">
+                    {% for city in city_list %}
+                        <option value="{{ city }}">{{ city }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group age-group">
                 <label for="age">Age:</label>
                <select id="age" name="age">
                     <option value="6">6-15</option>
@@ -162,15 +239,16 @@
                 <span class="counter" id="funActivities-counter">50</span>
             </div>
 
-            <div class="form-group">
+            <div class="form-group time-group">
                 <label for="maxTime">Max Time:</label>
                 <input type="text" id="maxTime" name="maxTime" placeholder="Enter max time in minutes">
             </div>
-
-            <div class="form-group">
+            
+            <div class="form-group time-group">
                 <label for="minTime">Min Time:</label>
                 <input type="text" id="minTime" name="minTime" placeholder="Enter min time in minutes">
             </div>
+            
 
             <div class="form-group">
                 <input type="submit" value="Submit" class="submit-button">

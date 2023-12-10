@@ -1,27 +1,9 @@
 {% extends 'test.html' %}
 
-{% block title %}Route{% endblock %}
+{% block title %}Services{% endblock %}
 
 {% block content %}
   <div id="map" style="height: 500px; margin: 0 auto;"></div>
-  <button id="disableRouteBtn" class="route-btn">Disable Route</button>
-  <button id="enableRouteBtn" class="route-btn">Enable Route</button>
-  <style>
-    .route-btn {
-      margin: 10px;
-      padding: 8px 16px;
-      font-size: 14px;
-      background-color: #4285f4;
-      color: #ffffff;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    .route-btn:hover {
-      background-color: #3c77d4;
-    }
-  </style>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -32,7 +14,7 @@
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
     // Replace with your actual OpenCage Geocoding API key
-    var openCageApiKey = '';
+    var openCageApiKey = 'your_opencage_api_key';
 
     // Replace with the dynamic locations data from Django view
     var locations = {% autoescape off %}{{ result | safe }}{% endautoescape %};
@@ -56,49 +38,27 @@
         locationsWithCoordinates.forEach((location, index) => {
           var marker = L.marker(location.latLng).addTo(map);
 
-          // Create a popup element
-          var popup = L.popup({
-            maxWidth: 300,
-            maxHeight: 200,
-          });
-
-          // Set the content of the popup
-          popup.setContent(`
+          // Add popup content with the location name, image, and URL
+          var popupContent = `
             <div>
               <h3>${location.address}</h3>
               <img src="${location.image}" alt="${location.address}" style="max-width: 100%; height: auto;">
               <p><a href="${location.website}" target="_blank">Visit Website</a></p>
             </div>
-          `);
+          `;
 
-          // Bind the popup to the marker
-          marker.bindPopup(popup);
-
-          // Handle click events to open the popup
-          marker.on('click', function () {
-            marker.openPopup();
-          });
+          marker.bindPopup(popupContent);
         });
 
-        // Add the routing control for bicycles (initially enabled)
-        var routingControl = L.Routing.control({
+        // Add the routing control for bicycles
+        L.Routing.control({
           waypoints: waypoints,
           routeWhileDragging: true,
-          //geocoder: L.Control.Geocoder.opencage(openCageApiKey),
+          geocoder: L.Control.Geocoder.opencage(openCageApiKey),
           lineOptions: {
             styles: [{ color: 'blue', opacity: 0.7, weight: 5 }]
           }
         }).addTo(map);
-
-        // Disable the route control when the "Disable Route" button is clicked
-        document.getElementById('disableRouteBtn').addEventListener('click', function () {
-          map.removeControl(routingControl);
-        });
-
-        // Enable the route control when the "Enable Route" button is clicked
-        document.getElementById('enableRouteBtn').addEventListener('click', function () {
-          routingControl.addTo(map);
-        });
       })
       .catch(error => console.error('Error:', error));
   </script>

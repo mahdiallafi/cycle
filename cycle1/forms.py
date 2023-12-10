@@ -11,3 +11,5 @@ class CycleForm(forms.Form):
     nature = forms.IntegerField(min_value=1, max_value=100) 
     sights = forms.IntegerField(min_value=1, max_value=100) 
     funActivities = forms.IntegerField(min_value=1, max_value=100) 
+    origin = forms.CharField(max_length=255)
+    destination = forms.CharField(max_length=255)
