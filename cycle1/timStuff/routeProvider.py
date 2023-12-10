@@ -130,7 +130,7 @@ def getBest(place, distance, time, userData, destination):
     bestRes = sorted(results, reverse=True)[0][1]
     returnList = []
     for element in bestRes:
-        returnList.append(places.iloc[placeToIdx[element]])
+        returnList.append(places.iloc[placeToIdx[element]])  
     return pd.DataFrame(returnList)
         
 ### GREEDY IMPLEMENTATION OVER

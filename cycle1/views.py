@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .knn_script import run_knn
 from .forms import CycleForm
+import pandas as pd
 
 # Create your views here.
 def home_screen_view(request):
@@ -18,7 +19,9 @@ def services(request):
     return render(request, 'services.html')
 
 def fill_form(request):
-    return render(request, 'fill_form.html')
+    cities = pd.read_csv('/home/mahdi/cycleing/python/cycleapp/cycle1/timStuff/places.csv', delimiter=';', low_memory=False)
+    city_list = cities.iloc[:, 1].tolist()
+    return render(request, 'fill_form.html',{'city_list': city_list})
 
 def show_in_map(request, latitude, longitude):
     latitude = float(latitude)
@@ -27,10 +30,10 @@ def show_in_map(request, latitude, longitude):
     return render(request, 'show_in_map.html', {'latitude': latitude, 'longitude': longitude})
 
 
-
 def submit_form(request):
     if request.method == 'POST':
         form = CycleForm(request.POST)
+        
         if form.is_valid():
             # Extract form data
             age_input = form.cleaned_data['age']
@@ -44,19 +47,23 @@ def submit_form(request):
             gender = form.cleaned_data['gender']
             nature = form.cleaned_data['nature']
             sights = form.cleaned_data['sights']
-            funActivities= form.cleaned_data['funActivities']
-            max_time = form.cleaned_data['maxTime']
-            min_time = form.cleaned_data['minTime']
+            funActivities = form.cleaned_data['funActivities']
+            maxDestination = form.cleaned_data['maxDestination']
+            minDestination = form.cleaned_data['minDestination']
+            origin = form.cleaned_data['origin']  # Corrected from 'orgin' to 'origin'
+            destination = form.cleaned_data['destination']
 
             # Process the data using your Python script
-            similar_items = run_knn(mapped_age, gender, max_time, min_time,history,art, nature,sights,funActivities)
+            similar_items = run_knn(mapped_age, gender, maxDestination, minDestination, history, art, nature, sights, funActivities, origin, destination)
 
+            result_dict_list = similar_items
             # Pass similar_items to the template
-            return render(request, 'knn_results.html', {'similar_items': similar_items})
+            return render(request, 'knn_results.html', {'result': result_dict_list})
     else:
         form = CycleForm()
 
     return render(request, 'test.html', {'form': form})
+
 
 
 def map_age_to_range(age):
