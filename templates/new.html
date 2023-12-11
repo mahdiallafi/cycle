@@ -14,7 +14,7 @@
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
     // Replace with your actual OpenCage Geocoding API key
-    var openCageApiKey = 'your_opencage_api_key';
+    var openCageApiKey = '';
 
     // Replace with the dynamic locations data from Django view
     var locations = {% autoescape off %}{{ result | safe }}{% endautoescape %};
