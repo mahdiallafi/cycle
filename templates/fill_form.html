@@ -169,10 +169,10 @@
             <div class="form-group orgin-group">
                 <label for="origin">Orgin:</label>
                 <select id="origin" name="origin">
+                    <option value="None">I dont care</option>
                     {% for city in city_list %}
                         <option value="{{ city }}">{{ city }}</option>
                     {% endfor %}
-                    <option value="None">I dont care</option>
                 </select>
             </div>
 
@@ -180,10 +180,11 @@
             <div class="form-group orgin-group">
                 <label for="destination">Destination:</label>
                 <select id="destination" name="destination">
+                    <option value="None">I dont care</option>
                     {% for city in city_list %}
                         <option value="{{ city }}">{{ city }}</option>
                     {% endfor %}
-                    <option value="None">I dont care</option>
+                    
                 </select>
             </div>
 
@@ -214,41 +215,48 @@
             <div class="form-group slider-container">
                 <label class="slider-label" for="history-slider">History:</label>
                 <input class="slider-input" type="range" id="history-slider" name="history" min="0" max="100" step="1" oninput="updateCounter(this)">
-                <span class="counter" id="history-counter">50</span>
+                <span class="counter" id="history-counter">50%</span>
             </div>
             
             <div class="form-group slider-container">
                 <label class="slider-label" for="art-slider">Art:</label>
                 <input class="slider-input" type="range" id="art-slider" name="art" min="0" max="100" step="1" oninput="updateCounter(this)">
-                <span class="counter" id="art-counter">50</span>
+                <span class="counter" id="art-counter">50%</span>
             </div>
             
             <div class="form-group slider-container">
                 <label class="slider-label" for="nature-slider">Nature:</label>
                 <input class="slider-input" type="range" id="nature-slider" name="nature" min="0" max="100" step="1" oninput="updateCounter(this)">
-                <span class="counter" id="nature-counter">50</span>
+                <span class="counter" id="nature-counter">50%</span>
             </div>
             
             <div class="form-group slider-container">
                 <label class="slider-label" for="sights-slider">Sights:</label>
                 <input class="slider-input" type="range" id="sights-slider" name="sights" min="0" max="100" step="1" oninput="updateCounter(this)">
-                <span class="counter" id="sights-counter">50</span>
+                <span class="counter" id="sights-counter">50%</span>
+            </div>
+
+            <div class="form-group slider-container">
+                <label class="slider-label" for="museums-slider">museums:</label>
+                <input class="slider-input" type="range" id="museums-slider" name="museums" min="0" max="100" step="1" oninput="updateCounter(this)">
+                <span class="counter" id="museums-counter">50%</span>
+            </div>
+
+            <div class="form-group slider-container">
+                <label class="slider-label" for="churches-slider">churches:</label>
+                <input class="slider-input" type="range" id="churches-slider" name="churches" min="0" max="100" step="1" oninput="updateCounter(this)">
+                <span class="counter" id="churches-counter">50%</span>
             </div>
             
             <div class="form-group slider-container">
                 <label class="slider-label" for="funActivities-slider">Fun Activities:</label>
                 <input class="slider-input" type="range" id="funActivities-slider" name="funActivities" min="0" max="100" step="1" oninput="updateCounter(this)">
-                <span class="counter" id="funActivities-counter">50</span>
-            </div>
-
-            <div class="form-group Destination-group">
-                <label for="maxDestination">Max destination:</label>
-                <input type="text" id="maxDestination" name="maxDestination" placeholder="Enter max destination in KM">
+                <span class="counter" id="funActivities-counter">50%</span>
             </div>
             
             <div class="form-group Destination-group">
-                <label for="minDestination">Min destination:</label>
-                <input type="text" id="minDestination" name="minDestination" placeholder="Enter min destination in KM">
+                <label for="minDestination">target Distance:</label>
+                <input type="text" id="targetDistance" name="targetDistance" placeholder="Enter min destination in m">
             </div>
             
 

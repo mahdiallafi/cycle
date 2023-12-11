@@ -35,7 +35,7 @@
     var openCageApiKey = '';
 
     // Replace with the dynamic locations data from Django view
-    var locations = {% autoescape off %}{{ result | safe }}{% endautoescape %};
+    var locations = JSON.parse('{{ result_json | safe | escapejs }}');
 
     // Function to convert address to coordinates using OpenCage Geocoding API
     var getCoordinates = async (location) => {
@@ -85,7 +85,6 @@
         var routingControl = L.Routing.control({
           waypoints: waypoints,
           routeWhileDragging: true,
-          //geocoder: L.Control.Geocoder.opencage(openCageApiKey),
           lineOptions: {
             styles: [{ color: 'blue', opacity: 0.7, weight: 5 }]
           }
@@ -98,7 +97,7 @@
 
         // Enable the route control when the "Enable Route" button is clicked
         document.getElementById('enableRouteBtn').addEventListener('click', function () {
-          routingControl.addTo(map);
+          map.addControl(routingControl);
         });
       })
       .catch(error => console.error('Error:', error));

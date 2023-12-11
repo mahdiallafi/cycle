@@ -4,6 +4,7 @@ from .forms import CycleForm
 from .timStuff.routeProvider import getBest
 from .timStuff.userDataProcessor import processUserData
 import pandas as pd
+import json
 
 # Create your views here.
 def home_screen_view(request):
@@ -50,19 +51,23 @@ def submit_form(request):
             nature = form.cleaned_data['nature']
             sights = form.cleaned_data['sights']
             funActivities = form.cleaned_data['funActivities']
-            maxDestination = form.cleaned_data['maxDestination']
-            minDestination = form.cleaned_data['minDestination']
+            targetDistance = form.cleaned_data['targetDistance']
+            museums = form.cleaned_data['museums']
+            churches = form.cleaned_data['churches']
             origin = form.cleaned_data['origin']
             destination = form.cleaned_data['destination']
 
+            print(f"res: ")
             # Process the data using your Python script
-            similar_items = getBest(origin, maxDestination, processUserData(mapped_age, gender, history, art, nature, museums, churches, sights, funActivities), destination)
+            similar_items = getBest(origin, targetDistance, processUserData(mapped_age, gender, history, art, nature, museums, churches, sights, funActivities), destination)
             # TODO: We are missing museums and churches values, remove minDestination and rename maxDestination to targetDistance or something like that
-
+            
 
             result_dict_list = similar_items
+            result_df = pd.DataFrame(similar_items)
+            result_json = result_df.to_json(orient='records')
             # Pass similar_items to the template
-            return render(request, 'knn_results.html', {'result': result_dict_list})
+            return render(request, 'knn_results.html', {'result_json': result_json})
     else:
         form = CycleForm()
 
