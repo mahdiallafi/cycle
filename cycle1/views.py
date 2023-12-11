@@ -59,6 +59,10 @@ def submit_form(request):
 
             print(f"res: ")
             # Process the data using your Python script
+            if destination == "None":
+                destination = None
+            if origin == "None":
+                origin = None
             similar_items = getBest(origin, targetDistance, processUserData(mapped_age, gender, history, art, nature, museums, churches, sights, funActivities), destination)
             # TODO: We are missing museums and churches values, remove minDestination and rename maxDestination to targetDistance or something like that
             
