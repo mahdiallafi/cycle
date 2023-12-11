@@ -237,13 +237,13 @@
             </div>
 
             <div class="form-group slider-container">
-                <label class="slider-label" for="museums-slider">museums:</label>
+                <label class="slider-label" for="museums-slider">Museums:</label>
                 <input class="slider-input" type="range" id="museums-slider" name="museums" min="0" max="100" step="1" oninput="updateCounter(this)">
                 <span class="counter" id="museums-counter">50%</span>
             </div>
 
             <div class="form-group slider-container">
-                <label class="slider-label" for="churches-slider">churches:</label>
+                <label class="slider-label" for="churches-slider">Churches:</label>
                 <input class="slider-input" type="range" id="churches-slider" name="churches" min="0" max="100" step="1" oninput="updateCounter(this)">
                 <span class="counter" id="churches-counter">50%</span>
             </div>
@@ -255,8 +255,8 @@
             </div>
             
             <div class="form-group Destination-group">
-                <label for="minDestination">target Distance:</label>
-                <input type="text" id="targetDistance" name="targetDistance" placeholder="Enter min destination in m">
+                <label for="minDestination">Target Distance:</label>
+                <input type="text" id="targetDistance" name="targetDistance" placeholder="Enter target distance in m">
             </div>
             
 
@@ -272,7 +272,7 @@
         function updateCounter(slider) {
     var sliderName = slider.name;
     var counter = document.getElementById(sliderName + '-counter');
-    counter.textContent = slider.value;
+    counter.textContent = slider.value + "%";
 }
     </script>
     
